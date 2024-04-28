@@ -1,0 +1,586 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1714246711329444, "dur": 691246, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246711329692, "dur": 14321, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246711344017, "dur": 48222, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246711392361, "dur": 314193, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246711706556, "dur": 301118, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246712007678, "dur": 13012, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246712021631, "dur": 28, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1714246711535841, "dur": 141375, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714246711536759, "dur": 58706, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714246711656753, "dur": 5365, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714246711662122, "dur": 15084, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714246711663044, "dur": 13430, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714246711683447, "dur": 1277, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1714246711680734, "dur": 4041, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246712021879, "dur": 501, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1714246711754016, "dur":1583, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711755607, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1714246711755671, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1714246711755688, "dur":1069, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1714246711756804, "dur":562, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711757367, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711995915, "dur":180, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996095, "dur":159, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996254, "dur":61, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996315, "dur":87, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996402, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996408, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996418, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996420, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996430, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996432, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996443, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996445, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996450, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996452, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996458, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996459, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996464, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996466, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996471, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996473, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996477, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996480, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996484, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996487, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996491, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996494, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996498, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996500, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996504, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996506, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996511, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996513, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996517, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996545, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246711996556, "dur":2434, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1714246711756862, "dur":620, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711757482, "dur":5088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711762585, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714246711762899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711767078, "dur":6068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1714246711773194, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711773382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711774943, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711780338, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711780711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711780725, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711784876, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711785214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711785221, "dur":4951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711790213, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711790441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711790450, "dur":5004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711795518, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711795719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711795728, "dur":5606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711801451, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711801716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711801727, "dur":5879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711807663, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711808002, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711808018, "dur":5761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711813838, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711813958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711813965, "dur":7233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711821415, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711821997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711822005, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/NavMeshComponentsExamples.dll" }}
+,{ "pid":12345, "tid":1, "ts":1714246711827518, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1714246711827576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1714246711827621, "dur":20521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1714246711848242, "dur":147705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711756676, "dur":735, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711757411, "dur":5177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711762588, "dur":2111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714246711764754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711767094, "dur":5823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1714246711772963, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711773125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711773837, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711777081, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711777282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711777300, "dur":5260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711782623, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711782832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711782843, "dur":5869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711788769, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711788943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711788949, "dur":4502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711793511, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711793979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711793995, "dur":6776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711800818, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711800978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711800985, "dur":6625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711807666, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711808284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711808301, "dur":7492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711815846, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711816172, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711816183, "dur":7242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711823482, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/FungusExamples.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711823656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711823670, "dur":6869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/FungusExamples.dll" }}
+,{ "pid":12345, "tid":2, "ts":1714246711830628, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/resources.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714246711830694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1714246711830715, "dur":8009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/resources.resource" }}
+,{ "pid":12345, "tid":2, "ts":1714246711838857, "dur":157044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714246711756594, "dur":799, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714246711757402, "dur":5164, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714246711762585, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1714246711762598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714246711764526, "dur":391, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1714246711764921, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1714246711764970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714246711765619, "dur":7137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1714246711772757, "dur":59466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714246711832242, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1714246711832268, "dur":99695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1714246711932026, "dur":63933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711756777, "dur":661, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711757438, "dur":5135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711762588, "dur":1781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714246711764372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711765994, "dur":6463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1714246711772543, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1714246711773000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711773009, "dur":2859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1714246711775910, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711776066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711776070, "dur":5589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711781704, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711781940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711781948, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711786880, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711787070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711787078, "dur":5057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711792181, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711792501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711792512, "dur":5465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711798036, "dur":1647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711799686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711799691, "dur":7254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711807011, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711807190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711807200, "dur":5759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711813036, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711813644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711813683, "dur":4916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711818737, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711819491, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711819599, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1714246711825470, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1714246711825544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711825672, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1714246711829345, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1714246711829600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711829615, "dur":7707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1714246711837474, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714246711838065, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1714246711838100, "dur":5989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1714246711844213, "dur":151719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711757887, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711757887, "dur":4695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711762584, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1714246711762860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711767157, "dur":5884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1714246711773097, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711773336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711775282, "dur":5978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711781313, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711781465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711781475, "dur":5073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711786608, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711786840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711786851, "dur":5322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711792334, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711792590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711792596, "dur":5115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711797771, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711798051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711798057, "dur":5386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711803532, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711803830, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711803850, "dur":6102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711810010, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711810309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711810322, "dur":6300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711816696, "dur":5155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711821855, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711821866, "dur":11813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1714246711833853, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1714246711833994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1714246711834020, "dur":8547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1714246711842744, "dur":153169, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711756984, "dur":539, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711757524, "dur":5061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711762586, "dur":2095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1714246711764743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711767066, "dur":5656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1714246711772784, "dur":23703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1714246711796491, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711796502, "dur":3851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1714246711800425, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711800587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711800598, "dur":5437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711806278, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711807082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711807097, "dur":6431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711813745, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711814811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711814819, "dur":6709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711821590, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711821905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711821915, "dur":6884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":6, "ts":1714246711828999, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714246711829086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1714246711829105, "dur":9229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1714246711838473, "dur":157426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711757106, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711757551, "dur":5035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711762587, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1714246711762861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711767030, "dur":5704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1714246711772806, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714246711773490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711773494, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test.exe" }}
+,{ "pid":12345, "tid":7, "ts":1714246711775913, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711776053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711776059, "dur":6587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711782724, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711783029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711783041, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711788471, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711788735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711788750, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711793493, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711793760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711793770, "dur":5511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711799347, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711799575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711799589, "dur":5858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711805527, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711805945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711805953, "dur":6415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711812422, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711812630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711812643, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711817639, "dur":4526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711822169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711822177, "dur":11993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1714246711834292, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1714246711834400, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1714246711834413, "dur":8804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1714246711843356, "dur":152560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711757208, "dur":357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711757566, "dur":5003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711762584, "dur":1762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1714246711764353, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711766570, "dur":6260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1714246711772924, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1714246711773191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711774430, "dur":7630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1714246711782122, "dur":1514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711783641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711783650, "dur":6517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711790232, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711790510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711790518, "dur":5969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711796554, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711796878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711796889, "dur":5208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711802148, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711802369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711802378, "dur":6862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711809314, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711809727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711809737, "dur":5817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711815601, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711815778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711815787, "dur":6722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711822582, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711823090, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711823107, "dur":7513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1714246711830720, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1714246711830913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1714246711830923, "dur":39054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1714246711870041, "dur":125892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711757272, "dur":318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711757590, "dur":4986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711762586, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1714246711763124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711766028, "dur":6931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1714246711773003, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711773205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711775233, "dur":4991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711780338, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711780713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711780725, "dur":4197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711784973, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711785195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711785200, "dur":5614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711790861, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711791014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711791021, "dur":5552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711796675, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711796983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711796990, "dur":6245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711803578, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711804552, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711804574, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711811167, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711811414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711811427, "dur":6354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711817991, "dur":1782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711819778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711819788, "dur":8628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1714246711828507, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1714246711828572, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1714246711828591, "dur":11406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1714246711840109, "dur":155787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711757357, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711757604, "dur":5004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711762608, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1714246711763114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711766825, "dur":6069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1714246711772934, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711773145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711775172, "dur":5282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711780568, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711780915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711780927, "dur":4006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711784999, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711785154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711785163, "dur":4729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711789949, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711790171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711790182, "dur":5312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711795545, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711795718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711795728, "dur":5733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711801546, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711801977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711801984, "dur":6501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711808554, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711808756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711808772, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711814500, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711814702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711814711, "dur":6623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711821414, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/NavMeshPlus.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711821700, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711821719, "dur":7218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/NavMeshPlus.dll" }}
+,{ "pid":12345, "tid":10, "ts":1714246711829011, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1714246711829270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1714246711829284, "dur":10559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1714246711840048, "dur":155850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711757455, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711757455, "dur":5125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711762585, "dur":858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1714246711763447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711765781, "dur":7421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1714246711773271, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711773431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711774832, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711778444, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711778608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711778615, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711783173, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711783487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711783496, "dur":5757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711789333, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711789553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711789568, "dur":5961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711795638, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711795825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711795833, "dur":4895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711800785, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711800974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711800983, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711806470, "dur":1401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711807878, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711807899, "dur":6517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711814451, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711814753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711814788, "dur":4873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711819719, "dur":687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711820418, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711820433, "dur":5913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1714246711826432, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1714246711826490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711826506, "dur":7219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1714246711833928, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1714246711834116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1714246711834127, "dur":9171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1714246711843412, "dur":152517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711757587, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711757587, "dur":5004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711762592, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1714246711762920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711767464, "dur":5637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1714246711773162, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711773361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711774893, "dur":5421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711780501, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711780870, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711780885, "dur":4300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711785232, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711785432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711785438, "dur":5940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711791434, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711791708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711791715, "dur":4736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711796518, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711796795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711796808, "dur":6261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711803155, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711803503, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711803522, "dur":6506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711810167, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711810417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711810423, "dur":5676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711816135, "dur":566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711816705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711816716, "dur":8897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1714246711825693, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1714246711825747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711825756, "dur":8292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1714246711834178, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1714246711834309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1714246711834321, "dur":9344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1714246711843847, "dur":152078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711757687, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711757688, "dur":4891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711762585, "dur":1861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1714246711764449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711765992, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1714246711772525, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1714246711772729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711772739, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1714246711774440, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711774650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711775311, "dur":5853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711781217, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711781468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711781476, "dur":5089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711786611, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711786872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711786915, "dur":5303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711792354, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711792589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711792596, "dur":5119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711797778, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711797998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711798011, "dur":6020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711804140, "dur":1642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711805787, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711805801, "dur":7140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711813037, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711813770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711813777, "dur":5932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711819757, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711820030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711820042, "dur":5599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1714246711825698, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1714246711825751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1714246711825758, "dur":170004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1714246711995820, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":13, "ts":1714246711995827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711757994, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711757994, "dur":4623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711762617, "dur":2185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1714246711764805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711766783, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1714246711772598, "dur":5808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711778410, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711779097, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711782194, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711782677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711782691, "dur":5817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711788597, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711788990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711789001, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711793563, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711793781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711793791, "dur":7629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711801489, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711801864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711801872, "dur":7504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711809458, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711809715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711809730, "dur":6183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711816000, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711816190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711816196, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711821597, "dur":6048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711827652, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1714246711827671, "dur":24184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1714246711851962, "dur":144001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711757791, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711757792, "dur":4797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711762590, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1714246711762897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711767072, "dur":5480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1714246711772599, "dur":28682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711801287, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711801451, "dur":10315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711811844, "dur":464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711812316, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711812329, "dur":5458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711817854, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711818106, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711818118, "dur":6130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711824322, "dur":2345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Fungus.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711826674, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711826685, "dur":8643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Fungus.dll" }}
+,{ "pid":12345, "tid":15, "ts":1714246711835684, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1714246711835830, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1714246711835856, "dur":8268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1714246711844263, "dur":151668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711756836, "dur":617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711757453, "dur":5152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711762607, "dur":1751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1714246711764360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711766547, "dur":5491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1714246711772070, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1714246711772170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711772237, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1714246711775516, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711775729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711775742, "dur":6003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711781798, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711782006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711782050, "dur":4783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711786879, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711787029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711787036, "dur":5623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711792743, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711792920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711792929, "dur":5840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711798829, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711799087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711799107, "dur":5955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711805131, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711805713, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711805730, "dur":6320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711812126, "dur":3407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711815539, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711815549, "dur":9624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711825364, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711825961, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711828938, "dur":3907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":16, "ts":1714246711832977, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1714246711833170, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1714246711833196, "dur":9016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/OMAR/Desktop/aventura/build/Point and Click test_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1714246711842348, "dur":153590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1714246712000827, "dur":1990, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1714246712022487, "dur": 950, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714246712021602, "dur": 1898, "ph": "X", "name": "Write chrome-trace events", "args": {} },

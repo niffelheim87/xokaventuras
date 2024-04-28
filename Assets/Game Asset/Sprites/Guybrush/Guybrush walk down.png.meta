@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 66753049b1d4521479938efc1bf7cde9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guybrush walk down_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1149
+        width: 85
+        height: 274
+      alignment: 9
+      pivot: {x: 0.44905296, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c05ee2a082dd8c499533e5463bb26d0
+      internalID: -1222462670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1152
+        width: 85
+        height: 274
+      alignment: 9
+      pivot: {x: 0.46294752, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1911e20cac8f8284e9d9d8211751a10e
+      internalID: 1850581568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_2
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1154
+        width: 85
+        height: 274
+      alignment: 9
+      pivot: {x: 0.4698953, y: 0.0007181655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436539d175cb9347b830b72e7e0949c
+      internalID: -1344698205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1154
+        width: 85
+        height: 274
+      alignment: 9
+      pivot: {x: 0.54863065, y: -0.0014367765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1373978ea03a9774f8a6cab27785ad02
+      internalID: -236288317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_4
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1162
+        width: 85
+        height: 274
+      alignment: 9
+      pivot: {x: 0.54168344, y: 0.0014367765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9335754e86047b64bba53d62fede4c89
+      internalID: -247191931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_5
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1165
+        width: 85
+        height: 274
+      alignment: 9
+      pivot: {x: 0.52778894, y: 0.0007181655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cdc165d0c2c9e4f8aa1229c27c4bd1
+      internalID: 1992837807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_6
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1153
+        width: 85
+        height: 274
+      alignment: 9
+      pivot: {x: 0.530104, y: 0.0007181655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e733f68414e8b64e98523ad6519d6cc
+      internalID: 1020885557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1154
+        width: 74
+        height: 274
+      alignment: 9
+      pivot: {x: 0.5319189, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ae5a3b6dfff104e8cd5e6fd4a898d8
+      internalID: 1231255058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_8
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1154
+        width: 78
+        height: 274
+      alignment: 9
+      pivot: {x: 0.5151414, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4678ce532cac6fd4880d3df7061e609f
+      internalID: -1316945602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_9
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1156
+        width: 84
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8978e120ffbf1444eb4abcbbc83b291a
+      internalID: 66516333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_10
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1160
+        width: 79
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95aa1c85397f444f9d977fcbb3a42f1
+      internalID: -1929341946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guybrush walk down_11
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1165
+        width: 78
+        height: 274
+      alignment: 9
+      pivot: {x: 0.48738137, y: 0.0014367765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc412d7c7bec05f44a203b388b224988
+      internalID: 401564569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Guybrush walk down_0: -1222462670
+      Guybrush walk down_1: 1850581568
+      Guybrush walk down_10: -1929341946
+      Guybrush walk down_11: 401564569
+      Guybrush walk down_2: -1344698205
+      Guybrush walk down_3: -236288317
+      Guybrush walk down_4: -247191931
+      Guybrush walk down_5: 1992837807
+      Guybrush walk down_6: 1020885557
+      Guybrush walk down_7: 1231255058
+      Guybrush walk down_8: -1316945602
+      Guybrush walk down_9: 66516333
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

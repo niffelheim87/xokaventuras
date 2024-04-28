@@ -1,0 +1,3592 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Fungus.dll:
+    - Fungus.Block
+    - Fungus.ButtonClicked
+    - Fungus.Character
+    - Fungus.Clickable2D
+    - Fungus.CustomTag
+    - Fungus.DialogInput
+    - Fungus.Draggable2D
+    - Fungus.ExecuteHandler
+    - Fungus.Flowchart
+    - Fungus.FungusState
+    - Fungus.GameStarted
+    - Fungus.InfoText
+    - Fungus.IntegerVariable
+    - Fungus.LoadScene
+    - Fungus.Localization
+    - Fungus.LuaBindings
+    - Fungus.LuaEnvironment
+    - Fungus.LuaScript
+    - Fungus.LuaStore
+    - Fungus.LuaUtils
+    - Fungus.MenuDialog
+    - Fungus.NarrativeLogEntryDisplay
+    - Fungus.NarrativeLogEntryUI
+    - Fungus.NarrativeLogMenu
+    - Fungus.Parallax
+    - Fungus.SaveData
+    - Fungus.SaveMenu
+    - Fungus.SayDialog
+    - Fungus.SelectOnEnable
+    - Fungus.Stage
+    - Fungus.View
+    - Fungus.Writer
+    - Fungus.WriterAudio
+    - Inventory
+    - ItemSlot
+    - Target
+    - Verbs
+    FungusEditor.dll:
+    - Fungus.EditorUtils.BlockEditor
+    - Fungus.EditorUtils.BlockInspector
+    - Fungus.EditorUtils.FlowchartWindow
+    - Fungus.EditorUtils.FungusEditorResources
+    NavMeshPlus.dll:
+    - NavMeshPlus.Components.NavMeshModifier
+    - NavMeshPlus.Components.NavMeshSurface
+    - NavMeshPlus.Extensions.CollectSources2d
+    Unity.2D.Animation.Editor.dll:
+    - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.IK.Editor.dll:
+    - UnityEditor.U2D.IK.IKEditorManager
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.2D.Tilemap.Extras.Editor.dll:
+    - UnityEditor.Tilemaps.GameObjectBrush
+    - UnityEditor.Tilemaps.GroupBrush
+    - UnityEditor.Tilemaps.LineBrush
+    - UnityEditor.Tilemaps.RandomBrush
+    Unity.PlasticSCM.Editor.dll:
+    - Unity.PlasticSCM.Editor.PlasticWindow
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.Physics2DRaycaster
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.EventSystems.TouchInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Selectable
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Fungus:
+    - Fungus.BoundObject
+    - Fungus.StringData
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Glyph
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: Inventory
+    methodName: ToggleInventory
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  - assembly: Fungus
+    fullTypeName: ItemSlot
+    methodName: OnItemClick
+  sceneClasses:
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1566}
+    - Class: 114
+      Script: {instanceID: 1804}
+    - Class: 114
+      Script: {instanceID: 1836}
+    - Class: 114
+      Script: {instanceID: 2232}
+    - Class: 114
+      Script: {instanceID: 2466}
+    - Class: 114
+      Script: {instanceID: 2474}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 3058}
+    - Class: 114
+      Script: {instanceID: 3190}
+    - Class: 114
+      Script: {instanceID: 3268}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3680}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3836}
+    - Class: 114
+      Script: {instanceID: 4006}
+    - Class: 114
+      Script: {instanceID: 4026}
+    - Class: 114
+      Script: {instanceID: 4388}
+    - Class: 114
+      Script: {instanceID: 4564}
+    - Class: 114
+      Script: {instanceID: 4694}
+    - Class: 114
+      Script: {instanceID: 4754}
+    - Class: 114
+      Script: {instanceID: 4816}
+    - Class: 114
+      Script: {instanceID: 4908}
+    - Class: 114
+      Script: {instanceID: 5130}
+    - Class: 114
+      Script: {instanceID: 5232}
+    - Class: 114
+      Script: {instanceID: 5254}
+    - Class: 114
+      Script: {instanceID: 5326}
+    - Class: 114
+      Script: {instanceID: 5528}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 114
+      Script: {instanceID: 5640}
+    - Class: 114
+      Script: {instanceID: 6200}
+    - Class: 114
+      Script: {instanceID: 6324}
+    - Class: 114
+      Script: {instanceID: 6568}
+    - Class: 114
+      Script: {instanceID: 6580}
+    - Class: 114
+      Script: {instanceID: 6610}
+    - Class: 114
+      Script: {instanceID: 6686}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 7076}
+    - Class: 114
+      Script: {instanceID: 7214}
+    - Class: 114
+      Script: {instanceID: 7400}
+    - Class: 114
+      Script: {instanceID: 7516}
+    - Class: 114
+      Script: {instanceID: 7720}
+    - Class: 114
+      Script: {instanceID: 7740}
+    - Class: 114
+      Script: {instanceID: 8034}
+    - Class: 114
+      Script: {instanceID: 8060}
+    - Class: 114
+      Script: {instanceID: 8144}
+    - Class: 114
+      Script: {instanceID: 8250}
+    - Class: 114
+      Script: {instanceID: 8260}
+    - Class: 114
+      Script: {instanceID: 8320}
+    - Class: 114
+      Script: {instanceID: 8328}
+    - Class: 114
+      Script: {instanceID: 8560}
+    - Class: 114
+      Script: {instanceID: 8728}
+    - Class: 114
+      Script: {instanceID: 8826}
+    - Class: 114
+      Script: {instanceID: 8858}
+    - Class: 114
+      Script: {instanceID: 9286}
+    - Class: 114
+      Script: {instanceID: 9798}
+    - Class: 114
+      Script: {instanceID: 10068}
+    - Class: 114
+      Script: {instanceID: 10086}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
+      Script: {instanceID: 0}
+    Assets/Scenes/Room.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1566}
+    - Class: 114
+      Script: {instanceID: 2148}
+    - Class: 114
+      Script: {instanceID: 2532}
+    - Class: 114
+      Script: {instanceID: 3058}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3850}
+    - Class: 114
+      Script: {instanceID: 6200}
+    - Class: 114
+      Script: {instanceID: 6686}
+    - Class: 114
+      Script: {instanceID: 6854}
+    - Class: 114
+      Script: {instanceID: 7740}
+    - Class: 114
+      Script: {instanceID: 7858}
+    - Class: 114
+      Script: {instanceID: 8250}
+    - Class: 114
+      Script: {instanceID: 9068}
+    - Class: 114
+      Script: {instanceID: 9184}
+    - Class: 114
+      Script: {instanceID: 9594}
+    - Class: 114
+      Script: {instanceID: 10086}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Room2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 10086}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: b8c62e6fbbd49b0adf47ca1dfd4b7754
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 7bcb35908a60cac26edee0ff51816ada
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: a9d9d285d996b592f1ccf674fa017099
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 829a3f3825b2b9d72365ef92d8177711
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: e77e642e1fec958f2ebaf3788f284278
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SaveVariable
+  - hash:
+      serializedVersion: 2
+      Hash: c1058004017c4d95e55a1c77d955e000
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1261fb613e7722830cf84f8a3a76fa70
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MusicManager
+  - hash:
+      serializedVersion: 2
+      Hash: 64288967e1c1ca47dc040013e22c2e2f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ForEach
+  - hash:
+      serializedVersion: 2
+      Hash: c42ca5008bd17aa017a363e84a29b631
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopBlock
+  - hash:
+      serializedVersion: 2
+      Hash: cb2458345f61b3546e8f69fdab09b729
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 3e5589796180f51a3433f59a5aa8b94f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DebugBreak
+  - hash:
+      serializedVersion: 2
+      Hash: 719a1390f9eb856966a1aaab72041631
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a506b72c53f139c380ebe7f3581a434b
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fb404c5ce77ae109586f146dedec3064
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: LeanTween
+  - hash:
+      serializedVersion: 2
+      Hash: da05abcc878171591b25804eef377360
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: c5b033c95889f2ce6128d9c2889bfc38
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetDraggable2D
+  - hash:
+      serializedVersion: 2
+      Hash: d5dbba1e095217e88ae7faf82e4e2dbe
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: fecf3d1355a51788dffd3cca823f5c2e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Call
+  - hash:
+      serializedVersion: 2
+      Hash: b6919327bcca55e4e56b20b361fa8ee4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 4b6863e42a16aa2fd047b5e60fa62ea1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AudioSourceProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 40f1d61053fd46ebc6a06083fc0eafc0
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dc799fbc95dcd425d113db4ee85dca8a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LookTo
+  - hash:
+      serializedVersion: 2
+      Hash: 5609918a60ea832f95015e31aebd9763
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b6452e101a9953f48db0380481396cc3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PlaySound
+  - hash:
+      serializedVersion: 2
+      Hash: f8ec07f1016b7e400cdef7f19c48fe21
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ClearMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 6fa02f99bbdf1fa36ae9e6f6b1853055
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GameObjectProperty
+  - hash:
+      serializedVersion: 2
+      Hash: a226b6295860e95dbfc775434f4b0f5b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Pow
+  - hash:
+      serializedVersion: 2
+      Hash: 5f8147a5b19cd07746f3744424e07bb8
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RigidbodyVariable
+  - hash:
+      serializedVersion: 2
+      Hash: ca892587b3ae4daa341d68c4cc7b80d9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RotateTo
+  - hash:
+      serializedVersion: 2
+      Hash: 95e8bb52c96e1ade7e5397a609935909
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TaskManager
+  - hash:
+      serializedVersion: 2
+      Hash: 104877dfef31d71153f3aadbb0ad82d2
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: Inventory
+  - hash:
+      serializedVersion: 2
+      Hash: 37993a8e9e19ac36159e065546b3399d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: InvokeMethod
+  - hash:
+      serializedVersion: 2
+      Hash: cf3e0237a0dcf0c668b47d93ee08dd7b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SpriteFader
+  - hash:
+      serializedVersion: 2
+      Hash: 5d41629c2b657ea0f7376ab39565c8d5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: QuaternionProperty
+  - hash:
+      serializedVersion: 2
+      Hash: d9bd27b7402b19c3d50e26d92c8a4c32
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: End
+  - hash:
+      serializedVersion: 2
+      Hash: b9507ff2c2a26a47f4887419178b816c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: WaitFrames
+  - hash:
+      serializedVersion: 2
+      Hash: 9ef88c7f8525fb2596b926087fb31de1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Jump
+  - hash:
+      serializedVersion: 2
+      Hash: 9241f048329b1f732bc821e85894e061
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SelectOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 99609c7b786b7ac816c1a166b58b7a8f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: InvLerp
+  - hash:
+      serializedVersion: 2
+      Hash: 4763159aa2d72ed796c2398564a4d18d
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 49da5a7a7d8af6a2b0a80da5e736c287
+    assemblyName: FungusExamples.dll
+    namespaceName: 
+    className: CustomScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9605a0475669ece0189f675c4d408e5f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: ee6be7908920007b6cb0dedad27b49c1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MenuDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 3966a53d4c21098de465381cdadc3df0
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: AgentLinkMover
+  - hash:
+      serializedVersion: 2
+      Hash: 53094487dc1668e88601b408ef99eb93
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 15f336ff9b8646256be9933e64dcfb92
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 72495e320144e349734159b350b1fb6c
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: ItemSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 55e873dce6ccedfd5f0aeb087cac186a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AnimatorState
+  - hash:
+      serializedVersion: 2
+      Hash: 01b0daf7858b2fa42e59a3359bf7b892
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Extensions
+    className: RootSources2d
+  - hash:
+      serializedVersion: 2
+      Hash: baf218a9799098962f3ddb5d79364282
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: de9fc259cfc6e7b604701deba9ade0dd
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: OpenURL
+  - hash:
+      serializedVersion: 2
+      Hash: 7e1ca2b5e4b4a944c49675ecc44d136e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3f643df48c636410e01fd098b89e8cba
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 6e95b2c540f07627af2640d8f2174bf5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: NarrativeLogEntryDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 7ec93d9b06592f70b4beca5c4611c8c9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetSprite
+  - hash:
+      serializedVersion: 2
+      Hash: 3bc6f5569cac30f8b0c387eea05e514d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Node
+  - hash:
+      serializedVersion: 2
+      Hash: 61612a658f3a2af0e6081d3e6b9b4f04
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DragStarted
+  - hash:
+      serializedVersion: 2
+      Hash: 23c67d59b5e34236a2f0740251e16866
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: 34d8612f3c89d5469f9b4b8f9bca787d
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SkeletonAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fa639fd1dc9b815beaa4e69e9856f268
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ControllerColliderHitProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 17328ad05217b9a4cf2daac1880d50a9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GetToggleState
+  - hash:
+      serializedVersion: 2
+      Hash: 4d893ba874af289ea9cc1cf4c9adef94
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TransformCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 3a32284eb3986d5744bbd4e5336df1e1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ControllerColliderHitVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 3a74ff97f36cb7570e57460d53dcf9c2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d2d9467f727498f3cda897c3744e0959
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DragCancelled
+  - hash:
+      serializedVersion: 2
+      Hash: f921b02bf646ab2166f65e65a733aab5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Map
+  - hash:
+      serializedVersion: 2
+      Hash: b1bb4205fd838b26d9f060e4d6b70335
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Mouse
+  - hash:
+      serializedVersion: 2
+      Hash: 302333189d2fc3209c670d8342295bbc
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopMotionRigidBody2D
+  - hash:
+      serializedVersion: 2
+      Hash: bddc0537c7e5678829a03142294b6546
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionRandomBag
+  - hash:
+      serializedVersion: 2
+      Hash: ef2a760dc8c0bb333363120518871762
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: dd4ada8af2339f2ec483b033e3cebfd4
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetAnimBool
+  - hash:
+      serializedVersion: 2
+      Hash: 46f8815aaefa696d509049c348ad6805
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 48071bdbf05defc4f9308e9e652577dd
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MoveAdd
+  - hash:
+      serializedVersion: 2
+      Hash: a152f4bbfcc1c203222264e9469e6cd6
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bb4bbeaa6e6b1a40a590caf64137d70c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Physics2DOverlap
+  - hash:
+      serializedVersion: 2
+      Hash: c3220f7afd647b11dae09800190b3898
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 201b3e41302e8bd8463c6af1573b2adb
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f2f22157c4ed573606d0fb26960b6bc9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ResetAnimTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 6554088abf80322f19a20856543c0003
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1db5b98d9e8ba22a71aee2cdc0af75b6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CameraManager
+  - hash:
+      serializedVersion: 2
+      Hash: 86af024b99b64a0bf78f827d790488ce
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: ClickToMove
+  - hash:
+      serializedVersion: 2
+      Hash: 793236146a3a4f76780be4535d5d818e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: IntegerVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 273c49d7fe3e9eab992511639bccbaa6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandFind
+  - hash:
+      serializedVersion: 2
+      Hash: 594ed3d4181f94acb7fa413a7683d30e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AssertCommand
+  - hash:
+      serializedVersion: 2
+      Hash: b7d1f4cc884d6b3f4d6bf5c6eb9d09d9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TextureVariable
+  - hash:
+      serializedVersion: 2
+      Hash: b4f7eae9ef53065dabc6b4145a6857f2
+    assemblyName: Unity.2D.Tilemap.Extras.dll
+    namespaceName: UnityEngine.Tilemaps
+    className: RuleOverrideTile
+  - hash:
+      serializedVersion: 2
+      Hash: 1128d8554ddf15d9744113426f01aec6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Sign
+  - hash:
+      serializedVersion: 2
+      Hash: 2fcf8f3c3026b456cfd4257034d2c571
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PunchScale
+  - hash:
+      serializedVersion: 2
+      Hash: 38e750404cf795da182d3fc3970d8689
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Flowchart
+  - hash:
+      serializedVersion: 2
+      Hash: d0738ca45441c13e4bcaccd5cd2dc9e1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Matrix4x4Property
+  - hash:
+      serializedVersion: 2
+      Hash: c3632937d58e47b256c6c90c1fb55119
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 84c295144a2fce36bf4afcb7fb81265f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: df6eab954ec864d23f72bf3587a64b76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 6b937678de3bc863243a20421eeb30b1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Collider2DCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 9e8898d1705d409ec4c988108072c8af
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 68d5dec1c60c68c2dfc1f02723e0b735
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: bcb9b7a93c09c207eb313c02affe0d60
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 364fbae09733aaee80341df8f14ab77b
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: LimbSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: d52b32cad627da2ce38deedf9626361f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ToInt
+  - hash:
+      serializedVersion: 2
+      Hash: 308f55f211bd8c5c55de188d0e07f3ae
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandContainsAll
+  - hash:
+      serializedVersion: 2
+      Hash: 8b85dc2c2635b8668c2aab2225e5c667
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ReloadScene
+  - hash:
+      serializedVersion: 2
+      Hash: a401d62e0a7b4e119d20fb7f6723eba8
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ac0995427965ff4d5e37afde8449a2d7
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8c5ab079dbc06dd660a4f3f0f25c099e
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 063a3dd0566fb89347a5bc47c2936408
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ThrowException
+  - hash:
+      serializedVersion: 2
+      Hash: 85328224caedc9b9b8b71957b4a48534
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StartSwipe
+  - hash:
+      serializedVersion: 2
+      Hash: d724b6e49da746e4fd6dfdcd6b0798ec
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 69781aeabeed69143fee485d27879936
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetUIImage
+  - hash:
+      serializedVersion: 2
+      Hash: f745213e3c73dc722a7726199e811706
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaElseIf
+  - hash:
+      serializedVersion: 2
+      Hash: f73be86142b05dfb9b2f4ace960b4d0c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetSaveProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 04d14d61fc887275205a12186189d07e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Block
+  - hash:
+      serializedVersion: 2
+      Hash: 0f58902885c0cf9898b47a82e0c00cac
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Portrait
+  - hash:
+      serializedVersion: 2
+      Hash: 6ce8e2c8546d26093696dba68c356f86
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MaterialVariable
+  - hash:
+      serializedVersion: 2
+      Hash: b8c4f3f5c046cfe9d06367583841327a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandContains
+  - hash:
+      serializedVersion: 2
+      Hash: 4a3351e209ecf0eff6ab268e49d7f341
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0d7260fb2080edf3dc85fbeeea36e8f1
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: RandomWalk
+  - hash:
+      serializedVersion: 2
+      Hash: 3970671d698211b60298fd57d2c71f9c
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: Bone
+  - hash:
+      serializedVersion: 2
+      Hash: 712121614224ff5226356bf9ff35ab93
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetSliderValue
+  - hash:
+      serializedVersion: 2
+      Hash: 20b468595b4afda043f85e5213096cd0
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Extensions
+    className: AgentRotateSmooth2d
+  - hash:
+      serializedVersion: 2
+      Hash: 8165edc0ea71078aadd02b6c3ce945a1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 3a83f591e46e3448934442d2753a4aee
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetAudioVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 30c6b60f3dcfc376ba50f06b25957287
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: WriterAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 7b8458afd1dd97f40a95939b371291cd
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: Verbs
+  - hash:
+      serializedVersion: 2
+      Hash: e767c4aa5ddc7228b6ca83da9aa0fba2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 81bb2f606fceb858467b5a01d57faa6e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c8a940a123437fa9a540d3a7d5c47c4d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FloatCollection
+  - hash:
+      serializedVersion: 2
+      Hash: d22870c12152c06e6827ec8589248637
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GameObjectVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 411a04d1ee8748824e224a553948367e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b00e69d9a287c91ec7cce8c5f1e9ae33
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Clamp
+  - hash:
+      serializedVersion: 2
+      Hash: f8b223f640cb8dc146d2777cc21877e2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e14e1efef698785f5ef2fc8cfc4f4b9a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ColliderVariable
+  - hash:
+      serializedVersion: 2
+      Hash: ba45bfdfb080578b6099987b256c7cc3
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: SfxrCacheSurrogate
+  - hash:
+      serializedVersion: 2
+      Hash: c00701ff66bcf3029dafee938bd874f3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CustomTag
+  - hash:
+      serializedVersion: 2
+      Hash: 68587ea39bb503ea8d65053e93c31d06
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1d9e07bb8536f382c86a0ef0c58f5e7f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0531d5fbddefc8de09b7b2699d523ee8
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 81c90fe9cf7acfff9f899009f1744944
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RigidbodyProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 59a3597e8b443837c9d7e56154cecead
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1598a3ebe746c020293577e56ff191f5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: EventDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: f38e707ee15eb4861906e5007e136e29
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GlobalVariables
+  - hash:
+      serializedVersion: 2
+      Hash: bd4016a2045f75e945497f07c5b80503
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 15fbcecfa2816f768e7207aa735b3f64
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector2Variable
+  - hash:
+      serializedVersion: 2
+      Hash: 09e69c9f441bae2750f7fd905bf5b4e0
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetVariable
+  - hash:
+      serializedVersion: 2
+      Hash: f87a82bdc1582c5f70b70ca85233d7f2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 0386898e83c7fa902060259868558ec6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MenuTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 4b63459f01a98fc12ab6ae687c5ea57f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AnimatorProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 41f612f1bc337b7ad9d5292371227873
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Rigidbody2DProperty
+  - hash:
+      serializedVersion: 2
+      Hash: e03fec22307e1fd6cf0546533198dd58
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GetText
+  - hash:
+      serializedVersion: 2
+      Hash: a7f2a0238c1cc122a5819bd3ee31609e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ScaleTo
+  - hash:
+      serializedVersion: 2
+      Hash: 65784ab5ae832e00230735e19000957b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae6b1b1eba0e8b5b46cd13ebbe46baf9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector3Variable
+  - hash:
+      serializedVersion: 2
+      Hash: 2a3801c7c8c72d9c40039ea2c57ba5b3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DeleteSaveKey
+  - hash:
+      serializedVersion: 2
+      Hash: 082e498c5506096695104299686a15ca
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SavePointLoaded
+  - hash:
+      serializedVersion: 2
+      Hash: e6d9d7c76a8e9415c681ed725e410944
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: View
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd072fe744b041d89a270bad6dcc541
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Write
+  - hash:
+      serializedVersion: 2
+      Hash: b309f0b8b517f50a2601fbb7a2f9f705
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: d31659580613492fca5cafdf6f5b22c7
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: IntCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 769abea9aa79f49a2ee1a4facd0a61d5
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6084adeab14e05f4904bb919e9476188
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RotateLean
+  - hash:
+      serializedVersion: 2
+      Hash: d7bd913ee74a4cad73a7c048d9783cd3
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 20d0d57151328868edb23fbf10cd0e13
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DestroyOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: ee5118997a23a2019f234168db9819ef
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector3Fields
+  - hash:
+      serializedVersion: 2
+      Hash: 066db8cca64e8a49b06c98cf8290adbb
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GetMousePosition
+  - hash:
+      serializedVersion: 2
+      Hash: 6eb06e529cac6397b9da61c6e850e345
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ExecuteHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 74d70c8be720b784a77c855719a5f22c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ObjectVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 36aebac642126cb8023e41400bd520c9
+    assemblyName: Unity.2D.Tilemap.Extras.dll
+    namespaceName: UnityEngine.Tilemaps
+    className: AdvancedRuleOverrideTile
+  - hash:
+      serializedVersion: 2
+      Hash: 5d1b5a5aafd0c5cb3dc14985dc978d55
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 481c7ed40ea31d4f87487ef030161457
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: Oscillator
+  - hash:
+      serializedVersion: 2
+      Hash: 4d620693cf3dbc34c031d8c6db350caf
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Components
+    className: NavMeshModifierTilemap
+  - hash:
+      serializedVersion: 2
+      Hash: e124006af7e3acaf84492ca8c6b1b51d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Clickable2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3c3e5980c88a14a86741564a7fd08aaa
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a6d5d7ef3206c9b867c446630ce5a137
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector2Property
+  - hash:
+      serializedVersion: 2
+      Hash: a3e84f4020de9c9748ce4d25659f53b6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LoadScene
+  - hash:
+      serializedVersion: 2
+      Hash: 264f8a7d0b4bf38866db99ebabb12fd2
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopTween
+  - hash:
+      serializedVersion: 2
+      Hash: d28b52a863ba5e1504776a993e061dd2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 811571b272057f22e88a422f2e6ff041
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Draggable2D
+  - hash:
+      serializedVersion: 2
+      Hash: 46cf17cc9b55e568ef87ba73a60680cb
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Say
+  - hash:
+      serializedVersion: 2
+      Hash: 59e393cbb34244d5b49b5ced75e8dcdd
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandShuffle
+  - hash:
+      serializedVersion: 2
+      Hash: caabe77e28fbcb7e39cd8071f303776b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Abs
+  - hash:
+      serializedVersion: 2
+      Hash: 18d76579bf91a44a3df1ba18e6826bc5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaCondition
+  - hash:
+      serializedVersion: 2
+      Hash: 922f0bc875e0303204ad4c1f0a417210
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StringCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 2bd783b5b85429caff317fd8ece19300
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 3f0c5931527466a39655ba5c810a45e3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StringVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 0ccf55462751edb0b6c88b337d7116c1
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: 
+    className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: bfc5344612d8519886120b07d076dabe
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TransformVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 4d636ad283a35ba049067a51eb30a4b8
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PlayAmbianceSound
+  - hash:
+      serializedVersion: 2
+      Hash: 95287fe21d528df3963ae2ccae1ada08
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Collider2DProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 46d3080f61a9612e03895f9fb580273a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ShakePosition
+  - hash:
+      serializedVersion: 2
+      Hash: 44e3c7096e4498e0e8f2f9a366455558
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetLanguage
+  - hash:
+      serializedVersion: 2
+      Hash: dd13f073f60156da58136fb16934b274
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LoadVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 15043e92d4510352f085ae1f63cfbd27
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FungusPriorityDecrease
+  - hash:
+      serializedVersion: 2
+      Hash: b52843f84017d5978a58906a35081363
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector3Normalise
+  - hash:
+      serializedVersion: 2
+      Hash: 61a4cf78cb6791b060882e3cc3aa178e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Wait
+  - hash:
+      serializedVersion: 2
+      Hash: 0d692a9df1632746f0d9916df8d55ff5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Matrix4x4Variable
+  - hash:
+      serializedVersion: 2
+      Hash: 41760a126c886d6718933eaa29af3b58
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandRemoveAt
+  - hash:
+      serializedVersion: 2
+      Hash: 1824a9130d49df16abbf95d88546f25c
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 21f4f1fec12583058b4c5843abeefdbb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 6a9516770b070951680a95390b9098a5
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: a58a793a79f1fafaaa4036a833d2bb55
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: InfoText
+  - hash:
+      serializedVersion: 2
+      Hash: 8b60a987f7aefec46dfb3fb1f02660aa
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ShowSprite
+  - hash:
+      serializedVersion: 2
+      Hash: 89003befdf0a1cfbd8100c7759ff3201
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 29bd1879b030387e2f3b2e68aef180c8
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FungusPriorityCount
+  - hash:
+      serializedVersion: 2
+      Hash: 6de2b6512c72220a3e4e40bf5eeb4a3b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MinMax
+  - hash:
+      serializedVersion: 2
+      Hash: 6fea02e0a8b3cb3b15440b3ff3fce29b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: d26575007b565aa57b9ec76a0c388a35
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandReserve
+  - hash:
+      serializedVersion: 2
+      Hash: 930a667fb52fdd36e6a253a905f25421
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CommandCopyBuffer
+  - hash:
+      serializedVersion: 2
+      Hash: 199db850eae0b2032b4332c387a862f8
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: NavMeshSourceTag
+  - hash:
+      serializedVersion: 2
+      Hash: 621258cbf131e999213abbde65c03985
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 60e316b22f0fea39d9c70b3a9acebc19
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PlayRandomSound
+  - hash:
+      serializedVersion: 2
+      Hash: 03116c959005bf565efe4a31f8be265e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: e4251bee8cbc90c39a8ad0672934a844
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FadeSprite
+  - hash:
+      serializedVersion: 2
+      Hash: 9b20bb37fe547a38e67e865c7074ed8f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: cb0af9d821296cd6914b3b57ceb35dac
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bbd9ed7742bb6cdcc7057f7810019318
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ExecuteLua
+  - hash:
+      serializedVersion: 2
+      Hash: 8380694a005b8814d6926314be0efec3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AudioSourceVariable
+  - hash:
+      serializedVersion: 2
+      Hash: bbc549d838d722ba9e67e7f8e3935030
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaBindings
+  - hash:
+      serializedVersion: 2
+      Hash: ca390a42cf8afc388ca9e5068b0b27df
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector3Arithmetic
+  - hash:
+      serializedVersion: 2
+      Hash: 76b17bf564fa9f8bd6ab3d1e431f9667
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 535553d0b030c4fa425a005b735c58fc
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Inv
+  - hash:
+      serializedVersion: 2
+      Hash: fa022b3b70f54337ae6fecca969ae805
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: NavMeshPrefabInstance
+  - hash:
+      serializedVersion: 2
+      Hash: a5899c0787e12350016dd19232317aa1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Break
+  - hash:
+      serializedVersion: 2
+      Hash: 6139bc0b979f5dd789681c310678ba7f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Else
+  - hash:
+      serializedVersion: 2
+      Hash: ef2e95a13a071be4502b9519e11147c1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ScaleAdd
+  - hash:
+      serializedVersion: 2
+      Hash: 9ed9e421d17369f1952e18cc1edadbcb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 931b55092af5779714f5f046fb5ffacc
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: NarrativeLog
+  - hash:
+      serializedVersion: 2
+      Hash: dc6d8d4c1e8de736693ce92dfbc7815a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetMouseCursor
+  - hash:
+      serializedVersion: 2
+      Hash: cdcee726df48f114eb6bb60092defdc4
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ScaleFrom
+  - hash:
+      serializedVersion: 2
+      Hash: a620f87edee2b0e8430fa7e55af96c93
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SaveData
+  - hash:
+      serializedVersion: 2
+      Hash: 70ac84330432a1383dcfceb22e667722
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: LocalNavMeshBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 516df9ff745b6187e0a0a4898924b8e3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GetAxis
+  - hash:
+      serializedVersion: 2
+      Hash: 7c6578257080be156adaca17b7cb4f95
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Stage
+  - hash:
+      serializedVersion: 2
+      Hash: 7219ebb0b4a64fd19236e423b34046f6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ce9a46f6a63d96418db07ebb78bedc43
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GameObjectCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 6a8aac6fbba9b269e316e98dd5ebe671
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AddTorque2D
+  - hash:
+      serializedVersion: 2
+      Hash: 73e414d9bade6fd6f045aa054ca8a856
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9b830c3d6291327a48bb6a787b62e144
+    assemblyName: Unity.2D.Tilemap.Extras.dll
+    namespaceName: UnityEngine.Tilemaps
+    className: AnimatedTile
+  - hash:
+      serializedVersion: 2
+      Hash: 5e7c1649947cbc30613798dfe4b674ac
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MenuShuffle
+  - hash:
+      serializedVersion: 2
+      Hash: 2d35f80a25d1c6f41c9912cd3c7e40c1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ToString
+  - hash:
+      serializedVersion: 2
+      Hash: cf351e85c3966b3561d0242a210d6a34
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionRandom
+  - hash:
+      serializedVersion: 2
+      Hash: e3f1bef12a8a5911cd2862807a617a51
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetAnimTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 1b9afe41df106367483bc614d85bbfaa
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SpriteVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 262ec0cb23e0e2ea1554dd83de472b66
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetAudioPitch
+  - hash:
+      serializedVersion: 2
+      Hash: 9fd7a77aa7e84321f85c10c8da751639
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector3ToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 4831268099baa4ee1d5b9997ab713597
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TransformChanged
+  - hash:
+      serializedVersion: 2
+      Hash: 6d1ca98bad1cb30a274f79776b279843
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 33f2c47366e4bdbfd1d940136a0d2a1e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SavePoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71ca06e418949ccc6fb408f1d7571c95
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: EnableIffSleeping
+  - hash:
+      serializedVersion: 2
+      Hash: 86604b4733b9716907896bfe0af85ab5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RotateAdd
+  - hash:
+      serializedVersion: 2
+      Hash: d9a2209cf09f728dde15f4d07706d6ed
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: e9d4ce6a38238b64af9de7ef353b67b6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FungusPriorityReset
+  - hash:
+      serializedVersion: 2
+      Hash: b153e9d1d849db14a9f9ab50836cf2e9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FloatVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 96a58f6a55452e1e74a792f5cb99ca2e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 999c449ad95117c75b6263e062d2e58e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 00772c2e501491e3584a0eea65958c5a
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 2d03b8ce630f57cc7f5f2c763d4ed1a1
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 78fa8c70bef8c6d96ce76e6d539a1987
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0d0d183065948bd029b086b5c804eccc
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MoveFrom
+  - hash:
+      serializedVersion: 2
+      Hash: 3662259560c66d9820f89a8f9ee192aa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: 3d860abc344bfbd5a594aa55314fb635
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 40ef719e6e8e66a7b278eb4b74516ce2
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FromString
+  - hash:
+      serializedVersion: 2
+      Hash: 059f8b846e6a9ef24e2f11a80fd9dcd6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DragExited
+  - hash:
+      serializedVersion: 2
+      Hash: e00ceae298211a29f1b752597147c780
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FungusPriorityIncrease
+  - hash:
+      serializedVersion: 2
+      Hash: 669efe453b5277f0d4dc617d6e4b45c4
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Stop
+  - hash:
+      serializedVersion: 2
+      Hash: 93b47ce15ae09f2ba9a8f1a80b3beca3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: NarrativeLogEntryUI
+  - hash:
+      serializedVersion: 2
+      Hash: f3af0e0f637016253c40351a71eac6ba
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d305f8f22d02300a4630f0d7d4c1147b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SaveManager
+  - hash:
+      serializedVersion: 2
+      Hash: 480e2a56c81cbe122ffc7c3fe7336a07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e688ed407bbfb11c21058187316ed44e
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 87f38e46a153f457fb3bb30d94cdb8c8
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: RandomInstancing
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa2effac9ca49e5b4cb014020ffe47
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ShakeRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 10b44983f0a7578909bb4d68fa771902
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 28f62cae4dc33a0ecd755e4303da2e4a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TransformProperty
+  - hash:
+      serializedVersion: 2
+      Hash: cf913e3eafd25423213245dd111eee95
+    assemblyName: Unity.2D.Tilemap.Extras.dll
+    namespaceName: UnityEngine.Tilemaps
+    className: GridInformation
+  - hash:
+      serializedVersion: 2
+      Hash: 90885b097032aadd2271d72ab97877e0
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: CCDSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5af2d34cd0b1625111482b41ef264492
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandSort
+  - hash:
+      serializedVersion: 2
+      Hash: e6c9d737a53b10b276c612ea107dad08
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandIntersection
+  - hash:
+      serializedVersion: 2
+      Hash: 9efc8c65b86b5c1022ed3efd7ac004a8
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b46a27dc8fe542927657974694fc29aa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 7aa48e18c70babde5d3c0e289904bdf6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SpawnObject
+  - hash:
+      serializedVersion: 2
+      Hash: 2380288dfe403a7f4b2182b575687cb8
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 19cdb182f716fac946185bdd09c7807a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Neg
+  - hash:
+      serializedVersion: 2
+      Hash: 63a1ffaae052ac8c714b438cab8f07a6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopMusic
+  - hash:
+      serializedVersion: 2
+      Hash: 59e857494a89f218b97e6e0b9a4886ca
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandExclusive
+  - hash:
+      serializedVersion: 2
+      Hash: 00cec37ec34c725918a0f50b3d7c5230
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SayDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 7283d7517057dea3e1257e97fd0e6f36
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 95aed0fa9f2304c7f0049ac9dbfbc696
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CallMethod
+  - hash:
+      serializedVersion: 2
+      Hash: e78f6985cfa9077afa7bb6c3ee81529f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 20e48a28ea1de5bfc5eb9786fab312c1
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Extensions
+    className: AgentOverride2d
+  - hash:
+      serializedVersion: 2
+      Hash: 94b74177fdd3bf7cd2fca259222098bb
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 31740f8338caef1ac05e0bbfad27f94a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Log
+  - hash:
+      serializedVersion: 2
+      Hash: f1d07dc09a79fe0546017763df34a384
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FadeToView
+  - hash:
+      serializedVersion: 2
+      Hash: a668f7447ae449b5f99c614137e10769
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ColorProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 5be72fb1d7733991365db3ad9f916828
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector4Property
+  - hash:
+      serializedVersion: 2
+      Hash: 20a95e10d64dee57e5a81d1a6ad306f0
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Collider2DVariable
+  - hash:
+      serializedVersion: 2
+      Hash: fc86f503c9259c83828ce292e54770aa
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Curve
+  - hash:
+      serializedVersion: 2
+      Hash: 334d82d3d265614841ccbc4ae60176f1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RotateFrom
+  - hash:
+      serializedVersion: 2
+      Hash: ca2658d82d8feccba327f29ea747eda5
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Components
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 3cba239dbe16c8d754705e8135186d34
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: DungeonManager
+  - hash:
+      serializedVersion: 2
+      Hash: 682f2824286a34270a6b8fae8376bf43
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandUnique
+  - hash:
+      serializedVersion: 2
+      Hash: d16ebdeb784dcf257c31c7ccba60c1aa
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TextureProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 9664dfb3acaa1cde4018f43cb14c08dd
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollisionVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 76fbed1a5d335d90ac37977e6db820d4
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Localization
+  - hash:
+      serializedVersion: 2
+      Hash: 6bbc411c6faba9b638dbb2b0b29b7d03
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaIf
+  - hash:
+      serializedVersion: 2
+      Hash: 2d957d33afa5072080a40c9c783eb96c
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5d2eca6f6cfbab49b6fa5ee0d302f2f0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f4da3baedad3944984c71261b4c1ffe5
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: f83cb4ef8f41a81ebbe6981ffdd48a5e
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: InventoryItem
+  - hash:
+      serializedVersion: 2
+      Hash: c22845d7508c89672a98c21618a5b2c4
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Extensions
+    className: CollectSourcesCache2d
+  - hash:
+      serializedVersion: 2
+      Hash: 4fce0c4d5aa639d5153611d34f36b605
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ShakeScale
+  - hash:
+      serializedVersion: 2
+      Hash: 4e429b5a2f8a02065dd306b2531e9b37
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinUpdateHelper
+  - hash:
+      serializedVersion: 2
+      Hash: ce29c624b4e215f90c5fc5df651c5363
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9e29667a89e02241a5acac926156e2f2
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0c8b499f64b686c0ec50f43e94d3af
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 2f5ba6ad30bd2459864c82eae710d396
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MessageReceived
+  - hash:
+      serializedVersion: 2
+      Hash: dce56630c7f963a3900aaaec021c0796
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Physics2DCast
+  - hash:
+      serializedVersion: 2
+      Hash: 676542a4f2f4196abf49a87c39f8fabe
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Extensions
+    className: AgentRotate2d
+  - hash:
+      serializedVersion: 2
+      Hash: a1e4b84d30c6142131a4217c217585d4
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopTweensLean
+  - hash:
+      serializedVersion: 2
+      Hash: 1d5d337809e0450fbf08cc50cc0804cb
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ToggleChanged
+  - hash:
+      serializedVersion: 2
+      Hash: 2b78387c6c030f3a9651ec38ea366ca7
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Quit
+  - hash:
+      serializedVersion: 2
+      Hash: 4ff9d986a6af8d9caeec5c32580163de
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaScript
+  - hash:
+      serializedVersion: 2
+      Hash: 2687600e20db07a780fcea7d97f2df78
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Label
+  - hash:
+      serializedVersion: 2
+      Hash: 5d149b382a350d7d3815a4897b293493
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ColliderProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 8de12aca8b8cb30fa29dfedb5a701e0e
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8ce48971342a105f3d6c544d24c75b41
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Lerp
+  - hash:
+      serializedVersion: 2
+      Hash: 992992ddd7c028cfbe7cd1171a25d5ef
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: GameTimeline
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd6bde7ac8aaa11b6ba17ab811f698a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopFlowchart
+  - hash:
+      serializedVersion: 2
+      Hash: a42927bbe2b6781f80336c132aa9c81b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GameStarted
+  - hash:
+      serializedVersion: 2
+      Hash: af9104db152341c5d5d964d6661777f3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: If
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab101290957ff9e0d4d4e836a0dd796
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: 3c5f036890ca3dffa35e38bc52594a69
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ButtonClicked
+  - hash:
+      serializedVersion: 2
+      Hash: d363befbd865f76ce0204ff77be0839c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Collision2D
+  - hash:
+      serializedVersion: 2
+      Hash: 472dc1693dbf136af5389e49b69aa67d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DebugLog
+  - hash:
+      serializedVersion: 2
+      Hash: b430bbcb6a295cff79f9a961b51ebc67
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Sqrt
+  - hash:
+      serializedVersion: 2
+      Hash: fb9eaed566bb4d20ab4f652c1b0c5eb3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandInsert
+  - hash:
+      serializedVersion: 2
+      Hash: 206a5c9d773ef22bc5ed2f451cd7ffbf
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c44f0fa52878d5075ced8098287cdc3
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AddForce2D
+  - hash:
+      serializedVersion: 2
+      Hash: 19d4755f9362c23995b15380e7879325
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Trig
+  - hash:
+      serializedVersion: 2
+      Hash: 0ab78f031b53dd5d55f964f3cd1c223e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 947930bf8667505645f27970594f34f5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandClear
+  - hash:
+      serializedVersion: 2
+      Hash: c4cf97c4675d50768d580b3d9870b26c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FadeScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 4579a3bfaa016399ca4d56852d393af5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandContainsAny
+  - hash:
+      serializedVersion: 2
+      Hash: a7acfe140b6016a37046ca8d51fac359
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GameObjectFind
+  - hash:
+      serializedVersion: 2
+      Hash: ff78cec24dc2cc4dade85f3bd70750e1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Writer
+  - hash:
+      serializedVersion: 2
+      Hash: ed034cff83e1d608e66691a37102630c
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: b656813297c75fbf9e8700a7408a742c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DragEntered
+  - hash:
+      serializedVersion: 2
+      Hash: cf5beabf0dc393f9438bd166ae3a7045
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ControlAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 0f9b8231b633881c33837ca92a836338
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PunchRotation
+  - hash:
+      serializedVersion: 2
+      Hash: f9901b45fc1d2381babf838b70cd32ba
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Menu
+  - hash:
+      serializedVersion: 2
+      Hash: 6e17f2b4457b59eea76b7da9654d1c55
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: SfxrAudioPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 59e70127a17ba8bc907898bb803a10f2
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetAnimFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 777a5151b93ad51ae62e833e4d4114a6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandResize
+  - hash:
+      serializedVersion: 2
+      Hash: fff6fe8ed4621549c8730e5419c80cbd
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Components
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: efae11d2c8a631eec986a5fcb5b10eba
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandElement
+  - hash:
+      serializedVersion: 2
+      Hash: ba56b351a859864259af22059d0d9a81
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandOccurrences
+  - hash:
+      serializedVersion: 2
+      Hash: dcfbad4e847f5344a44ef3d3f8ba83d8
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Rigidbody2DVariable
+  - hash:
+      serializedVersion: 2
+      Hash: cc16e8d8a8e974a30cd08264a57df4e0
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Round
+  - hash:
+      serializedVersion: 2
+      Hash: 4806912bf6c9309a3c30924bb7d1d953
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ReadTextFile
+  - hash:
+      serializedVersion: 2
+      Hash: 0ba88d4d17161812c3a1be4c4af6df13
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: FreeCam
+  - hash:
+      serializedVersion: 2
+      Hash: bb76ac5fe72844c5716d56a48def55cc
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SpriteProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 2a87c793cf1089dcce2e08e0a6ed8478
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: iTween
+  - hash:
+      serializedVersion: 2
+      Hash: bbf04bd95a67514e8fdf97faa9153039
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetActive
+  - hash:
+      serializedVersion: 2
+      Hash: d944b60df0709bd311157d9648e674ee
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetToggleState
+  - hash:
+      serializedVersion: 2
+      Hash: e315e65e5bca7e66ea8a6c1fbcde6ccc
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DialogInput
+  - hash:
+      serializedVersion: 2
+      Hash: ab83fa9209b73d94dbec301001db7690
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b0f821da017809ce2f313ad14b72187e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Reset
+  - hash:
+      serializedVersion: 2
+      Hash: 9646f9ae0d0aad70f4fb6443c4e569f6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaEnvironment
+  - hash:
+      serializedVersion: 2
+      Hash: a4da7b849b30f5483114e59fcd7c98db
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MaterialProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 67fc3dda1d00a462ab77e4af15f9684a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LoopRange
+  - hash:
+      serializedVersion: 2
+      Hash: 01d70aed96208236b127b3f84b7c4b4e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetText
+  - hash:
+      serializedVersion: 2
+      Hash: 077dc3af2dc275035d0f4a1e26ee18ed
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: NarrativeLogMenu
+  - hash:
+      serializedVersion: 2
+      Hash: ffdbadeb34b46b71f3fbac3b34d0f787
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ControlStage
+  - hash:
+      serializedVersion: 2
+      Hash: d698267e748f903e57d93b8c98bea547
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ShakeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 9690f760294698c29b1bee7d9b7bd452
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 6fe911e194e48d991d5644c6ca350ed5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Particle
+  - hash:
+      serializedVersion: 2
+      Hash: a273edb1f10a7eafb870721bc4bddaca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffacc03a651624ad5bb72bc787275f7
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ceb4961d39f347996fda1404ac174d05
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4a85f757b46a159580d579138c7c9fb9
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 0ef5e1cd9779a9c9ea41e875b96d4ad5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: UpdateTick
+  - hash:
+      serializedVersion: 2
+      Hash: 5fd4183b086505c3bf0874f7fe438fad
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Parallax
+  - hash:
+      serializedVersion: 2
+      Hash: 4d3bf1ed7b2a98bf5a7375a0a2a3226b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Character
+  - hash:
+      serializedVersion: 2
+      Hash: 6691dd18200d133e8dbae24b6281d1cf
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 92d9fb6c7cf8bc828ca482e7d9878925
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FlowchartEnabled
+  - hash:
+      serializedVersion: 2
+      Hash: b18d0e797afe7fd0fe2c21358287a296
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: AnimatorVariable
+  - hash:
+      serializedVersion: 2
+      Hash: fa68a44c1fffd26cc08bba050b08eae0
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ChangeItem
+  - hash:
+      serializedVersion: 2
+      Hash: 8804add77dfa7a1bc3c3e86456b40bfc
+    assemblyName: Unity.2D.Tilemap.Extras.dll
+    namespaceName: UnityEngine
+    className: IsometricRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: 2648e40e35ffde06c6d9aee6873c30dc
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopAmbiance
+  - hash:
+      serializedVersion: 2
+      Hash: cdcba1363ac5a467c308699188b18071
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: 3ae5254763a13c993d34ec430d1b0f13
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ColorVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 038b977be0a0b6c8eaed5e561b6722c8
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionVariable
+  - hash:
+      serializedVersion: 2
+      Hash: b4859430ac5e398f0534820d09193caa
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopSwipe
+  - hash:
+      serializedVersion: 2
+      Hash: 663a46cfa104ca1268d868d8cb5ac30e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MoveLean
+  - hash:
+      serializedVersion: 2
+      Hash: 6433a2cab09e6371ed0f725892bba1c6
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Render
+  - hash:
+      serializedVersion: 2
+      Hash: 33351225ad07d388c6f33d76ccfe9ba6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 6af965ee4682f4d7233d0d7a6b865a26
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandRemoveAllOf
+  - hash:
+      serializedVersion: 2
+      Hash: b95a5c361906c79074b852441b04a985
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaUtils
+  - hash:
+      serializedVersion: 2
+      Hash: faf7ea7eb741b1fe97480b7afecf9311
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetSayDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 875e5dc734a56ac85e39f5c9f434a247
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: IntVarCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 460eb608d7e51ae3611ac163b9055e6f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Conversation
+  - hash:
+      serializedVersion: 2
+      Hash: 0bb2eb11b9be4e7feeb83ddb78bc6747
+    assemblyName: Unity.2D.Tilemap.Extras.dll
+    namespaceName: UnityEngine
+    className: HexagonalRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: f1ba3939edcf4406dbb90ccb6e292259
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c775193bec472a91767f76dccfe603e7
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: fded8eb2f33bca1f7941ac737fbac609
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Collision2DProperty
+  - hash:
+      serializedVersion: 2
+      Hash: d4d2b89bd8bd2f7ef76672ea1a4241ba
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: GetKey
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5d04a23d7ad272dc7905d8fa0d3ae5
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 678e1b1d2ead89a22d454421d06258e4
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 89c0fa0b542a82565aa19f5ac34af13e
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ElseIf
+  - hash:
+      serializedVersion: 2
+      Hash: ee3363d333d9cd55c6d980a3cc786be2
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SaveMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 6737f1c01241cde7c7be66171588a631
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Collision2DVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 60848472e362199ae5eac55c8892dcbe
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8aba8310e34927c8644797c10bf6d49c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PlayAnimState
+  - hash:
+      serializedVersion: 2
+      Hash: d201216d61198e7087b8b2c9c4183bd9
+    assemblyName: FungusExamples.dll
+    namespaceName: Fungus.Examples
+    className: ForceCursorVisible
+  - hash:
+      serializedVersion: 2
+      Hash: e864e557101d65b85008914e105437b1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FadeUI
+  - hash:
+      serializedVersion: 2
+      Hash: 49816991f4e4e297273398c8840d22b2
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector4Variable
+  - hash:
+      serializedVersion: 2
+      Hash: a6330a95766a0e12841ab21ef24de69e
+    assemblyName: FungusExamples.dll
+    namespaceName: Fungus.Examples
+    className: SimpleMouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: 41e9882b8248f3d9ca9fe877c9e37f8f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: TMProLinkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 098e616fddf2c530f28257c2c39f270b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1717b40cd671ed3db10d3f724fb3aeb3
+    assemblyName: Unity.2D.Tilemap.Extras.dll
+    namespaceName: UnityEngine
+    className: RuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: 306fc7d0fa822ec8df2d3415184dde0d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Vector3Property
+  - hash:
+      serializedVersion: 2
+      Hash: d3e4078083a1103b4f848ed574cc2d56
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Fullscreen
+  - hash:
+      serializedVersion: 2
+      Hash: 466329aa1430edd5d9cc35262ee17096
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b233596d9684c69331e788b90682f22b
+    assemblyName: FungusExamples.dll
+    namespaceName: Fungus.Examples
+    className: SimpleForceMovement
+  - hash:
+      serializedVersion: 2
+      Hash: f9786a3dca6228a6818ec4a0134d9212
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 2cfa6b6cf726fff9b44e6ee1cb849535
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetClickable2D
+  - hash:
+      serializedVersion: 2
+      Hash: d27e3cc93a7f9221c316285ac758f2ce
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Exp
+  - hash:
+      serializedVersion: 2
+      Hash: 805c62fb3df38a31dfa854c4f1d54dfa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 1d7e904b1e342eb843b1c89573366295
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetSpriteOrder
+  - hash:
+      serializedVersion: 2
+      Hash: 9c0a36538ee34b1a1088a14c0af8b4ad
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: EventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c05e73c4535140d8b52eabb410ae089c
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fe080edb42253ff47e3e338b21fe9f9e
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a817f26310b09d1dbb96b7b0fe7bc68c
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Extensions
+    className: CollectSources2d
+  - hash:
+      serializedVersion: 2
+      Hash: 950baa414a3a80042fdd788f2bf09fe9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MoveToView
+  - hash:
+      serializedVersion: 2
+      Hash: 608dc971788786c69c8b872d853a2ede
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Comment
+  - hash:
+      serializedVersion: 2
+      Hash: dc15cdcfcce97f93a72c051990a267d3
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 99905d0a9827e300837d7398daae4d1b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PhysicsCast
+  - hash:
+      serializedVersion: 2
+      Hash: 1dab6105c906bc4618c60a754b619234
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetAnimInteger
+  - hash:
+      serializedVersion: 2
+      Hash: 03537dd42b6fc73a601799c77ceb0b9c
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 453c286dc9c9c693626ccfeab876ea44
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d237bce245b4f4a2e047abc102d6b745
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: MeshTool
+  - hash:
+      serializedVersion: 2
+      Hash: 644007494bc8f11f96cb3d9910dc3bce
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3bde53946dc7b0ea64673e8fbe62b965
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PlayMusic
+  - hash:
+      serializedVersion: 2
+      Hash: 17f1486d123f3fc88090f2a6c9188dd1
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 74101b1189e7f911aef3b5ca95b2db19
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: abc4f7c833f1506a639e9bd81246176f
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: 55ac714ecd14f17465c0e21a680e5b69
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 33155d6eb0435943fa98862f452bcf7f
+    assemblyName: FungusExamples.dll
+    namespaceName: Fungus.Examples
+    className: SpriteColorChangeFromFungusMouseEvent
+  - hash:
+      serializedVersion: 2
+      Hash: a49f25aff0ae8297e7c62023c11956d7
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetMenuDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 24f071c6622f49c4071a5f9dfa5f690f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PlayUsfxrSound
+  - hash:
+      serializedVersion: 2
+      Hash: a4855b3a359067e5ab0282d57ba348d4
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Components
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: edb1f4e6ffeb70d5bacd216fb082dfd3
+    assemblyName: Fungus.dll
+    namespaceName: 
+    className: Target
+  - hash:
+      serializedVersion: 2
+      Hash: b068df2fc0537bf4c04bbb778911a675
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ScaleLean
+  - hash:
+      serializedVersion: 2
+      Hash: f170f0e14e1b2aae0bba9c98cf4aa1ae
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: a04e07fc78fd32edc730963f6c5845c9
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Trigger2D
+  - hash:
+      serializedVersion: 2
+      Hash: a312998784c089fff6d317bfb4021283
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: KeyPressed
+  - hash:
+      serializedVersion: 2
+      Hash: e14dcf7af3981900fd7ccc998d6e0e85
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8ba9087fc74ab0be0965ace79ffc3424
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PortraitController
+  - hash:
+      serializedVersion: 2
+      Hash: c7716b0ee8ef2461765cc230a358907f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandCount
+  - hash:
+      serializedVersion: 2
+      Hash: 7597323556fa35fdf5906a5c6e6303ea
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: DragCompleted
+  - hash:
+      serializedVersion: 2
+      Hash: 42f4ddebdf2d44cdcd7ff3aa076f1606
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteResolver
+  - hash:
+      serializedVersion: 2
+      Hash: 1ff76b7a82b2b0fd6d84eed67370a649
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0daff2a50f619ba5a8d94cab32725cb5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandAddAll
+  - hash:
+      serializedVersion: 2
+      Hash: a8f0ee1fc5e54bfd8bc33e95f404bb85
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: EndEdit
+  - hash:
+      serializedVersion: 2
+      Hash: a1926869a1b71ceb204692733af622c6
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 68459d9902fc1e55fadd59e033d5a4e0
+    assemblyName: FungusExamples.dll
+    namespaceName: Fungus.Examples
+    className: LookingAtDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 83388497588d1472b7a8143923d0f240
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RandomInteger
+  - hash:
+      serializedVersion: 2
+      Hash: 4eabdc88c42ac09fbed28bf131ec796f
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SetCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 552ef595fe1491c01997eb33dafa0214
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PunchPosition
+  - hash:
+      serializedVersion: 2
+      Hash: e9f75b2aeb4d0998d63076af530f6b9a
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: MoveTo
+  - hash:
+      serializedVersion: 2
+      Hash: 7314c7be593245a21d907fd62660e8c7
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Collision
+  - hash:
+      serializedVersion: 2
+      Hash: 856dfa2c9ee638d4decd63e9c8937df5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: StopTweens
+  - hash:
+      serializedVersion: 2
+      Hash: 5c85572882bc5574456fafb27a7a852c
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LuaStore
+  - hash:
+      serializedVersion: 2
+      Hash: 1be22efcf14046b6500140f5e39a62c6
+    assemblyName: NavMeshPlus.dll
+    namespaceName: NavMeshPlus.Components
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: fc7776e300daac07097a810e6adebb30
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FungusState
+  - hash:
+      serializedVersion: 2
+      Hash: 7d058425dfd4d06ddec4be7a4bb72067
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c62b899b9a1f32ac313da93fc7c92a5f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c37575b245c80f8e514574da491569b5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Trigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8681f81df656c975bf3d3a2f202e8352
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 9a892a8a59574894e4dfcc95e537835f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2bd8c2c356a82d2d20c6a9d2687f09d9
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: SpawnPrefabOnKeyDown
+  - hash:
+      serializedVersion: 2
+      Hash: a57d437be4b5d6e1edea16bc8b858d7d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollisionProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 859333885587342035ff75ae28f9d734
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 721972b2dcdc94652c22eb1fd080bb3d
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandRemove
+  - hash:
+      serializedVersion: 2
+      Hash: ed9c9cbfca5925c35fb076ba91c95810
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandAdd
+  - hash:
+      serializedVersion: 2
+      Hash: 227479bd62346e4ec94436066e4f660a
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: cc110c07d6c16e23dd699c7557a92ccb
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: LookFrom
+  - hash:
+      serializedVersion: 2
+      Hash: 37568acc2bfc8af2c8291909ff211f4b
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: BooleanVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 5cad0b05948c236c8ee9afa11258f587
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: InvokeEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 053905c3b320251a1f7649ce01a74e94
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandReverse
+  - hash:
+      serializedVersion: 2
+      Hash: 9141da52667d5b03d4f12036ebce4d0f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cd5e4b671a6f3e47fe319d5913a5513e
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f976093a31a8247c700a46c78481621b
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrarySourceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3c1bf7548a04761cecc44f384b0dc8d1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: SendMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 6a1c46bb595cd3b2f510484232bc0822
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: QuaternionVariable
+  - hash:
+      serializedVersion: 2
+      Hash: a4a4270c66a962d9fa7b5540356f4e8f
+    assemblyName: FungusExamples.dll
+    namespaceName: Fungus.Examples
+    className: FPDemoPriorityRouter
+  - hash:
+      serializedVersion: 2
+      Hash: 6325ba782cb9b09b3f51afc2903e73a1
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: While
+  - hash:
+      serializedVersion: 2
+      Hash: 4be8e8fd46703efc994b6cdb4d493702
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: RandomFloat
+  - hash:
+      serializedVersion: 2
+      Hash: f06c6592a5d3c3879df051e04f4969a8
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ColliderCollection
+  - hash:
+      serializedVersion: 2
+      Hash: af3c7bb5f1a72685c8bff2aeb7ca8d1b
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 29587d56e19dc7e0836c2d1396ac55d0
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: FungusManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5c76b6826c5a42f322ba10c4da3fc50b
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c9661df6d55351e9b3b45eaddfee67e5
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ApplicationState
+  - hash:
+      serializedVersion: 2
+      Hash: 28246ef538d4fe99b52de9e2e532798e
+    assemblyName: NavMeshComponentsExamples.dll
+    namespaceName: 
+    className: DestroyOnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 2a1618af3cf6183b2385d416626c759a
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 56c517e231c79d27a2f9bab6d2c3c424
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CharacterControllerCollide
+  - hash:
+      serializedVersion: 2
+      Hash: 1745d7fa8e485e1c22ca6cae88053094
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: PhysicsOverlap
+  - hash:
+      serializedVersion: 2
+      Hash: 5a04024e8462f798ddc85e05d89fae30
+    assemblyName: FungusExamples.dll
+    namespaceName: Fungus.Examples
+    className: TMProLinkStylingDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 07013afdf1108de7e8b7c16a87c2cc11
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1b8ccbc16ab4154f829c858b7c2bdd44
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: Destroy
+  - hash:
+      serializedVersion: 2
+      Hash: c8316dd7467edf977fa3393a3d9fe8be
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: CollectionCommandCopy
+  - hash:
+      serializedVersion: 2
+      Hash: c5495cef5472c394a7d823d1315ba01d
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 696ee48c4b1c3f986215ec12524e4073
+    assemblyName: Fungus.dll
+    namespaceName: Fungus
+    className: ObjectClicked
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/Room.unity
+  - Assets/Scenes/Room2.unity
+  playerPath: C:/Users/OMAR/Desktop/aventura/build/Point and Click test.exe

@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: 7b02ba0efa6c97e46af7d9bc64db5699
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wally_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 251
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.31264094, y: 0.05874615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df556824275708a4497aff9fde521240
+      internalID: 270910866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 250
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.33584803, y: 0.03964289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff30cd85d24cea4d9cb581403468134
+      internalID: -1328179335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 250
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.36789405, y: 0.05059463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a557c7388866e0840b9d2ff354e72b04
+      internalID: 1227676479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_3
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 253
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.385594, y: 0.061190702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db2dd549650d42449471955fe12c7c5
+      internalID: 1094739132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 255
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.3482781, y: 0.062019117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be746875fa5daa49ae5f405e1405bee
+      internalID: -2110911789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_5
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 254
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.3848094, y: 0.06771906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9114648d2253d24db1a2f400579944d
+      internalID: -1861802533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_6
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 253
+        width: 126
+        height: 165
+      alignment: 9
+      pivot: {x: 0.3509289, y: 0.03742158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22d83e2b540368429d8f2a254571636
+      internalID: -1784350450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_7
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 250
+        width: 124
+        height: 165
+      alignment: 9
+      pivot: {x: 0.34740326, y: 0.050594445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f5ff82697166e47b73cf906f12522b
+      internalID: 1200540243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_8
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 252
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.41550168, y: 0.07828184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cf20bc54ccfd94a8bfed2e74f1ba75
+      internalID: 163644878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 60
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.40904036, y: 0.084826246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f407bab6203b2f43ae59db49b48a5e1
+      internalID: -189158693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_10
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 60
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.3955329, y: 0.1318678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d5bb0e23cde5d43b05721896232c27
+      internalID: 1158176741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_11
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 59
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.40592027, y: 0.08291048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58ac44a2a49f9049b0b1c3d0e6c9388
+      internalID: -771213746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_12
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 59
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.40610096, y: 0.087150715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba34505a126c99246b029d8b3bc2511a
+      internalID: 694156211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_13
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 56
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.33182958, y: 0.11625954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe72451045c1bf048ade43f9e402aa55
+      internalID: 1863596425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_14
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 57
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.31746376, y: 0.13109912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ea1f4ae59bcdb4791e8c62e4e5c4b3
+      internalID: -1345921103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_16
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 56
+        width: 138
+        height: 165
+      alignment: 9
+      pivot: {x: 0.3487686, y: 0.107568264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dce6b0193d32146bdaf5e4e3a1e0ff
+      internalID: 1318896330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_18
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 59
+        width: 149
+        height: 165
+      alignment: 9
+      pivot: {x: 0.27589038, y: 0.10929154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3838d56db8d8a4f9eb645380cdbe3d
+      internalID: -1159084594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_20
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 57
+        width: 126
+        height: 165
+      alignment: 9
+      pivot: {x: 0.31570214, y: 0.14850944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8859aa61da43d4398a07080364feea
+      internalID: -1820690141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wally_25
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 94
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dddc27887082f449b1dacbacaab32a
+      internalID: 645231897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Wally_0: 270910866
+      Wally_1: -1328179335
+      Wally_10: 1158176741
+      Wally_11: -771213746
+      Wally_12: 694156211
+      Wally_13: 1863596425
+      Wally_14: -1345921103
+      Wally_15: -2085728678
+      Wally_16: 1318896330
+      Wally_17: -1205480089
+      Wally_18: -1159084594
+      Wally_19: -169392996
+      Wally_2: 1227676479
+      Wally_20: -1820690141
+      Wally_21: 205969671
+      Wally_22: 1256645918
+      Wally_23: 1356357925
+      Wally_24: -1611932136
+      Wally_25: 645231897
+      Wally_26: -1715168205
+      Wally_27: 1528016064
+      Wally_3: 1094739132
+      Wally_4: -2110911789
+      Wally_5: -1861802533
+      Wally_6: -1784350450
+      Wally_7: 1200540243
+      Wally_8: 163644878
+      Wally_9: -189158693
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
