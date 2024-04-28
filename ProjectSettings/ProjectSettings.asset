@@ -769,11 +769,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 0297eb1f-1c4d-434f-b163-9d295489d685
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: xokaventuras
+  organizationId: omarkali
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
