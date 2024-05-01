@@ -22,14 +22,17 @@ namespace Fungus
     [ExecuteInEditMode]
     public class LoadScene : Command
     {
+        //Indicamos el valor del parametro String para el nombre de la escena que será cargada mediante en la UI
         [Tooltip("Name of the scene to load. The scene must also be added to the build settings.")]
         [SerializeField] protected StringData _sceneName = new StringData("");
 
+        //Indicamos el valor del parametro Texture2D para el nombre de imagen de fondo en la UI mientras la escena se carga
         [Tooltip("Image to display while loading the scene")]
         [SerializeField] protected Texture2D loadingImage;
 
         #region Public members
 
+        //Método para cargar el escenario y añadir una imagen de fondo	
         public override void OnEnter()
         {
             SceneLoader.LoadScene(_sceneName.Value, loadingImage);

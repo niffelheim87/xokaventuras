@@ -11,13 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusExamples", "FungusExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsExamples", "NavMeshComponentsExamples.csproj", "{3513AE4A-46EF-72D0-C00D-886836693E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{104CB481-704B-A670-BC5E-F439D05D30E9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{D2FA7182-95B5-2533-1770-012D67295852}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusEditor", "FungusEditor.csproj", "{B883AC83-ACCA-06F1-D44D-F4968F52D31D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.FungusLuaJSONCheckerEditor", "Fungus.FungusLuaJSONCheckerEditor.csproj", "{12D706CF-420C-8670-A452-E9D9F2239896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meryel.CodeAssist.Editor", "Meryel.CodeAssist.Editor.csproj", "{CF971469-3D1D-6933-5F6C-A3D531D848A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.FungusLuaEditor", "Fungus.FungusLuaEditor.csproj", "{96AACFC1-C4E3-3D89-30AC-DDBE2873FCAA}"
 EndProject
@@ -59,10 +59,6 @@ Global
 		{3513AE4A-46EF-72D0-C00D-886836693E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3513AE4A-46EF-72D0-C00D-886836693E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3513AE4A-46EF-72D0-C00D-886836693E86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{104CB481-704B-A670-BC5E-F439D05D30E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{104CB481-704B-A670-BC5E-F439D05D30E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{104CB481-704B-A670-BC5E-F439D05D30E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{104CB481-704B-A670-BC5E-F439D05D30E9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D2FA7182-95B5-2533-1770-012D67295852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D2FA7182-95B5-2533-1770-012D67295852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2FA7182-95B5-2533-1770-012D67295852}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,6 +71,10 @@ Global
 		{12D706CF-420C-8670-A452-E9D9F2239896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D706CF-420C-8670-A452-E9D9F2239896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D706CF-420C-8670-A452-E9D9F2239896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF971469-3D1D-6933-5F6C-A3D531D848A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF971469-3D1D-6933-5F6C-A3D531D848A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF971469-3D1D-6933-5F6C-A3D531D848A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF971469-3D1D-6933-5F6C-A3D531D848A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{96AACFC1-C4E3-3D89-30AC-DDBE2873FCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{96AACFC1-C4E3-3D89-30AC-DDBE2873FCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96AACFC1-C4E3-3D89-30AC-DDBE2873FCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
