@@ -405,7 +405,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259005215}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d8dcc2ed25cc46d4a898ad4548ce0ef6, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 6e94ac60904f17c4293e8dbb81c9adf9, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 865359004}
@@ -939,7 +939,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.58292
     y: 151.15115
-    width: 112.11763
+    width: 114.70587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -981,7 +981,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 125.2941
+    width: 127.64705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1077,7 +1077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.799995
     y: 307.60007
-    width: 107.41175
+    width: 109.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1119,7 +1119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.799995
     y: 232.40005
-    width: 137.52939
+    width: 141.7647
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
