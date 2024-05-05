@@ -1948,7 +1948,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f05b06bc863ed444f993fa9744b23c11, type: 3}
-  m_Color: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1966,8 +1966,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448182483}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.23, y: 0.12, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 4.8573, y: 0.2341, z: 0}
+  m_LocalScale: {x: 2.5479395, y: 2.0063672, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3422,6 +3422,8 @@ GameObject:
   - component: {fileID: 929340397}
   - component: {fileID: 929340396}
   - component: {fileID: 929340399}
+  - component: {fileID: 929340400}
+  - component: {fileID: 929340401}
   m_Layer: 0
   m_Name: Flowchart Objects
   m_TagString: Untagged
@@ -3443,17 +3445,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 101
+    x: 102.6
     y: 96
-    width: 75
+    width: 75.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
   blockName: start
   description: 
-  eventHandler: {fileID: 0}
-  commandList: []
+  eventHandler: {fileID: 929340401}
+  commandList:
+  - {fileID: 929340400}
   suppressAllAutoSelections: 0
 --- !u!114 &929340387
 MonoBehaviour:
@@ -3479,10 +3482,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 929340392}
-  selectedCommands:
-  - {fileID: 929340399}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 929340395}
   - {fileID: 929340394}
@@ -3587,7 +3588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 213
     y: 172
-    width: 149
+    width: 151.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3711,7 +3712,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 500
     y: 227
-    width: 104
+    width: 106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3724,7 +3725,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &929340399
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3743,6 +3744,37 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &929340400
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929340385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6f88496f37c444a91acef47749f723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  cursorTexture: {fileID: 2800000, guid: f278f2ef226690a469b65a379fb746eb, type: 3}
+  hotSpot: {x: 0, y: 0}
+--- !u!114 &929340401
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929340385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 929340386}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &986507507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4701,7 +4733,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148447595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.077871, y: -1.0861484, z: 10.000254}
+  m_LocalPosition: {x: -5.43, y: -1.64, z: 10.000254}
   m_LocalScale: {x: 2.280395, y: 2.3082016, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5025,7 +5057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: df6813d5b5035d64cbe0d2996556d4a5, type: 3}
   useEventSystem: 0
   activateDistance: 3
   ClickableName: Ramrod
@@ -7022,7 +7054,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778697221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.98, y: 0.7, z: 0}
+  m_LocalPosition: {x: -0.49, y: 0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
