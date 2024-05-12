@@ -43,7 +43,7 @@ public class Target : MonoBehaviour
 
             UpdateAnimation();
         }
-        
+        AdjustPerspective();
         //AdjustSortingLayer();
     }
 
@@ -78,6 +78,23 @@ public class Target : MonoBehaviour
     //    scale.y = perspectiveScale * (scaleRatio - transform.position.y);
     //    transform.localScale = scale;
     //}
+
+    public void AdjustPerspective()
+    {
+        Vector3 scale = transform.localScale;
+        scale.x = perspectiveScale * ((scaleRatio - transform.position.y)/2);
+        scale.y = perspectiveScale * ((scaleRatio - transform.position.y)/2);
+        if (scale.y > 1.8f)
+            scale.y = 1.8f;
+        if (scale.x > 1.8f)
+            scale.x = 1.8f;
+        if (scale.y < 1.2f)
+            scale.y = 1.2f;  
+        if (scale.x < 1.2f)
+            scale.x = 1.2f;     
+        transform.localScale = scale;
+    }
+
 
     public void ExitDialog()
     {
