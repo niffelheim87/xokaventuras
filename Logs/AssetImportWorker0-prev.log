@@ -1,0 +1,540 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 32718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Hub\Editor\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Proyectos/xokaventuras
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59549
+Successfully changed project path to: E:/Unity/Proyectos/xokaventuras
+E:/Unity/Proyectos/xokaventuras
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13340] Host "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 3503652119 [EditorId] 3503652119 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MT1QTC7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13340] Host "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 3503652119 [EditorId] 3503652119 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MT1QTC7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 109.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path E:/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Proyectos/xokaventuras/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24326 MB
+    Driver:   31.0.15.5152
+Initialize mono
+Mono path[0] = 'E:/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001822 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (100ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1985ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1732ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1108ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4696 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (46.8 KB). Loaded Objects now: 5145.
+Memory consumption went from 172.9 MB to 172.8 MB.
+Total: 6.658700 ms (FindLiveObjects: 0.491800 ms CreateObjectMapping: 0.147800 ms MarkObjects: 5.910500 ms  DeleteObjects: 0.107000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 683622.261273 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente.png
+  artifactKey: Guid(fde505afe0e7bd44494a3e507275a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente.png using Guid(fde505afe0e7bd44494a3e507275a119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72c18d1106826d094aed408e8c95b2c') in 0.168008 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 533.913087 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f0cf52a27c2d0fa4419e01c2f037a1') in 0.088010 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 92.493232 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5f662e37baa843802eaaf4f44f04d1') in 0.068717 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 107.063171 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286643c113ee87300e75bb9df77fa435') in 0.061362 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 59.160445 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b463af2c324784286fef7653b4baa90') in 0.061742 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 109.178040 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22d24baf93cb06f4433891d327654e0') in 0.063600 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 139.929146 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c3bf12445b8a65bd93b0666ff8c9bf') in 0.062719 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 44.215375 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cdc283e559ec72a4d8fafd9e25490e') in 0.061961 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 141.940319 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png
+  artifactKey: Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas de frente - copia.png using Guid(d7bed0e084ab64d4faf5c56e320a9bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef88ef82f5cb388f1163c95eabe7c58') in 0.068106 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1114.082892 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df482202d91825638dc2969daf0d60e7') in 0.026453 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 355.418432 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8607e47e798036a382cd6df55d7bfa06') in 0.029182 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 25.091412 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385573334a8dd1ff237902200b9fff3') in 0.013542 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 140.669018 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa34a0d7aed60ba6961ef94f7494deb') in 0.019998 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 17.467251 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42def765d0807fe85b245fde54e860e1') in 0.011439 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.993312 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23a1ca9f3a8ea6054f2855592f9c29b') in 0.020691 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 214.913015 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b057ded04406c7f03a4c853cc53f0df') in 0.022218 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1304.469774 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af1de493606e1e848268247366c1bfd') in 0.024301 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 356.387480 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c3fd55e66d64ffa379493ea3368a2a') in 0.020534 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.643375 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5884a2d6984512fe7b41244fb9806e14') in 0.024473 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.725817 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png
+  artifactKey: Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_frente_512.png using Guid(7d3011665d48b004ea85f2657a6d866e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4606a34746b6fd06829cbc7dfedfb9c') in 0.019921 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 426.194759 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_espaldas_512.png
+  artifactKey: Guid(0cb3804d5e2dca14dbd604bcd247cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_espaldas_512.png using Guid(0cb3804d5e2dca14dbd604bcd247cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31892456e3b6328ecffe76fa00982b23') in 0.043970 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 395.009195 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_espaldas_512.png
+  artifactKey: Guid(0cb3804d5e2dca14dbd604bcd247cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_espaldas_512.png using Guid(0cb3804d5e2dca14dbd604bcd247cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312c91dc6ab1dd67bb4d686c9f1b5187') in 0.025648 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 173.571473 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_espaldas_512.png
+  artifactKey: Guid(0cb3804d5e2dca14dbd604bcd247cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_espaldas_512.png using Guid(0cb3804d5e2dca14dbd604bcd247cab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e5acdf133f7f23687f602fd508a10a') in 0.022213 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 356.588199 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2295aade82b0c4a9cbfaa380098d51c') in 0.042650 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.540387 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7861fa05fb298ed00954677afb1b2647') in 0.012496 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1069.150549 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512_derecho.png
+  artifactKey: Guid(816168c5757cd93458fcdd21dea3c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512_derecho.png using Guid(816168c5757cd93458fcdd21dea3c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe3a6861a084df8a3c9c3124a8f4d87') in 0.067258 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.784264 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a45e776be077a41071309fbf8c2548') in 0.037384 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 727.552306 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3213c707d489d1c03b276aa6f52ce9b2') in 0.027942 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 43.906246 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777adb820615cd0547b564e175dcabe6') in 0.026879 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 419.935009 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da73cfef5802e139f0c2b0d39e748a48') in 0.028783 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 19.239904 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14ff7525f90b454a7700ef8ea41ae6c') in 0.034137 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 403.948254 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a182554c14c2da2f0786f8b51555f3') in 0.031351 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 15.304456 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba93d27bdbbc5c004d551bbb0ac44f') in 0.032420 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 194.841989 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8a0c8be5e93e59e1af7bca98b92436') in 0.031696 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 322.371675 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784f581d119ac59c4b211d7c7efe1a06') in 0.033585 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 21.785347 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1fdd03b1d926a3cf1105fe52c420ac') in 0.031030 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 99.729582 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9c2e524113129f520fa43fe6c6377e') in 0.027317 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 234.194095 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png
+  artifactKey: Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512.png using Guid(bf66846c0eda34d49af0fd199c51c04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483c0caf546eb0fd3976103dc55cd457') in 0.028504 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1546.281667 seconds.
+  path: Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512_derecho.png
+  artifactKey: Guid(816168c5757cd93458fcdd21dea3c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Game Asset/Sprites/Xokas/Xokas_de_lado_512_derecho.png using Guid(816168c5757cd93458fcdd21dea3c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15ba79b6765ddfba8637c6b485f243e') in 0.026024 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 214.616342 seconds.
+  path: Assets/NavMeshComponents-master/Assets/Examples/Prefabs/Materials/BanyanBark.mat
+  artifactKey: Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/NavMeshComponents-master/Assets/Examples/Prefabs/Materials/BanyanBark.mat using Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097c4cf5908e32e2c54585c72ee073de') in 0.109885 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NavMeshComponents-master/Assets/Examples/Materials/red.mat
+  artifactKey: Guid(5195427c0d27644ed90d87ebe86d468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/NavMeshComponents-master/Assets/Examples/Materials/red.mat using Guid(5195427c0d27644ed90d87ebe86d468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e8496e37d525cc54ef96aabd1cc596') in 0.027520 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NavMeshComponents-master/Assets/Examples/Materials/crosshair.mat
+  artifactKey: Guid(6f20074b5ffb143d2a869e4cc78d9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/NavMeshComponents-master/Assets/Examples/Materials/crosshair.mat using Guid(6f20074b5ffb143d2a869e4cc78d9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa808d0392013c3d73ee11c87e0837d') in 0.042269 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FungusExamples/Collection/UnlitSphere.mat
+  artifactKey: Guid(2bcc72af9791dfb448148e231fb8c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FungusExamples/Collection/UnlitSphere.mat using Guid(2bcc72af9791dfb448148e231fb8c7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ca64c48c5925c12f06955c4ea8583c') in 0.108833 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NavMeshComponents-master/Assets/Examples/Materials/brown.mat
+  artifactKey: Guid(1e1c6a0a64beb49ec96272beefa468a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/NavMeshComponents-master/Assets/Examples/Materials/brown.mat using Guid(1e1c6a0a64beb49ec96272beefa468a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e84f575d02944403045b47a65d7cd4') in 0.038031 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/NavMeshComponents-master/Assets/Examples/Materials/brightgreen.mat
+  artifactKey: Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/NavMeshComponents-master/Assets/Examples/Materials/brightgreen.mat using Guid(5c9ea827aaa4145c8900e81ca1395aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25634aff502bd60178059e742231b63') in 0.029144 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FungusExamples/FungusTown/Materials/WhiteSmoke.mat
+  artifactKey: Guid(6691b047f10934720968e9f83cf13ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FungusExamples/FungusTown/Materials/WhiteSmoke.mat using Guid(6691b047f10934720968e9f83cf13ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917b69c3cec7cbc0bcb74db3166aec0d') in 0.063176 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

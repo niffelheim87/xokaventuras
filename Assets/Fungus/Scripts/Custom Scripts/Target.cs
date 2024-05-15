@@ -59,8 +59,8 @@ public class Target : MonoBehaviour
         if(distance>0.01)
         {
             Vector3 direction = transform.position - new Vector3(followSpot.x, followSpot.y, transform.position.z);
-            float angel = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
-            anim.SetFloat("angle", angel);
+            float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+            anim.SetFloat("angle", angle);
             stuckDistanceCheck = transform.position;
         }
     }

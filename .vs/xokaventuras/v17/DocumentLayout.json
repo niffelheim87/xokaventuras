@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity\\Proyectos\\xokaventuras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|e:\\unity\\proyectos\\xokaventuras\\assets\\fungus\\scripts\\components\\clickable2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|solutionrelative:assets\\fungus\\scripts\\components\\clickable2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|E:\\Unity\\Proyectos\\xokaventuras\\assets\\fungus\\scripts\\custom scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|solutionrelative:assets\\fungus\\scripts\\custom scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|e:\\unity\\proyectos\\xokaventuras\\assets\\fungus\\scripts\\custom scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|solutionrelative:assets\\fungus\\scripts\\custom scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12D706CF-420C-8670-A452-E9D9F2239896}|Fungus.FungusLuaJSONCheckerEditor.csproj|e:\\unity\\proyectos\\xokaventuras\\assets\\fungus\\thirdparty\\funguslua\\thirdparty\\json\\editor\\jsonchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D706CF-420C-8670-A452-E9D9F2239896}|Fungus.FungusLuaJSONCheckerEditor.csproj|solutionrelative:assets\\fungus\\thirdparty\\funguslua\\thirdparty\\json\\editor\\jsonchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|E:\\Unity\\Proyectos\\xokaventuras\\assets\\fungus\\scripts\\components\\clickable2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|solutionrelative:assets\\fungus\\scripts\\components\\clickable2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|E:\\Unity\\Proyectos\\xokaventuras\\assets\\fungus\\scripts\\commands\\changeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,37 +30,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "JSONChecker.cs",
+              "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Thirdparty\\FungusLua\\Thirdparty\\JSON\\Editor\\JSONChecker.cs",
+              "RelativeDocumentMoniker": "Assets\\Fungus\\Thirdparty\\FungusLua\\Thirdparty\\JSON\\Editor\\JSONChecker.cs",
+              "ToolTip": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Thirdparty\\FungusLua\\Thirdparty\\JSON\\Editor\\JSONChecker.cs",
+              "RelativeToolTip": "Assets\\Fungus\\Thirdparty\\FungusLua\\Thirdparty\\JSON\\Editor\\JSONChecker.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwEsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:13:14.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Clickable2D.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Components\\Clickable2D.cs",
               "RelativeDocumentMoniker": "Assets\\Fungus\\Scripts\\Components\\Clickable2D.cs",
               "ToolTip": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Components\\Clickable2D.cs",
               "RelativeToolTip": "Assets\\Fungus\\Scripts\\Components\\Clickable2D.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAcwDcAAAATAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAEBUwDcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T20:33:26.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T20:33:26.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Target.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Custom Scripts\\Target.cs",
               "RelativeDocumentMoniker": "Assets\\Fungus\\Scripts\\Custom Scripts\\Target.cs",
               "ToolTip": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Custom Scripts\\Target.cs",
               "RelativeToolTip": "Assets\\Fungus\\Scripts\\Custom Scripts\\Target.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwE4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T17:23:18.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChangeItem.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Commands\\ChangeItem.cs",
               "RelativeDocumentMoniker": "Assets\\Fungus\\Scripts\\Commands\\ChangeItem.cs",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameTimeline.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Scripts\\GameTimeline.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameTimeline.cs",
