@@ -16,7 +16,8 @@ public class Target : MonoBehaviour
     public bool inDialog;
     public bool cutSceneInProgress;
     private Verbs verb;
-    // Start is called before the first frame update
+
+    // Inicializa las variables antes del update del primer frame
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -28,7 +29,7 @@ public class Target : MonoBehaviour
         agent.updateUpAxis = false;       
     }
 
-    // Update is called once per frame
+    // Update es llamado por cada frame para recoge la posición del ratón para después establecer la posición de destino.
     void Update()
     {
         if(!inDialog)
@@ -47,6 +48,7 @@ public class Target : MonoBehaviour
         //AdjustSortingLayer();
     }
 
+    // Calcula la distancia entre la posición actual y destino actualizando la animación.
     private void UpdateAnimation()
     {
         float distance = Vector2.Distance(transform.position, followSpot);
@@ -65,20 +67,13 @@ public class Target : MonoBehaviour
         }
     }
 
-    private void AdjustSortingLayer()
+    /*private void AdjustSortingLayer()
     {
         sr.sortingOrder=(int)(transform.position.y * -100);
     }
+    */
 
-
-    //public void AdjustPerspektive()
-    //{
-    //    Vector3 scale = transform.localScale;
-    //    scale.x = perspectiveScale * (scaleRatio - transform.position.y);
-    //    scale.y = perspectiveScale * (scaleRatio - transform.position.y);
-    //    transform.localScale = scale;
-    //}
-
+    // Ajusta la escala en función de la posición vertical y la limita para no exceder el tamaño.
     public void AdjustPerspective()
     {
         Vector3 scale = transform.localScale;
@@ -96,6 +91,7 @@ public class Target : MonoBehaviour
     }
 
 
+    //Cambian los estados para mostrar y esconder los objetos relacionados al diálogo.
     public void ExitDialog()
     {
         inDialog = false;

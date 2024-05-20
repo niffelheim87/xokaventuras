@@ -19,7 +19,8 @@ public class Verbs : MonoBehaviour
     private TextMeshProUGUI verbTextBox;
     private Flowchart[] flowcharts;
     public bool isUseActive;
-    // Start is called before the first frame update
+
+    // Inicializamos los componentes
     void Start()
     {
         verbTextBox = GetComponentInChildren<TextMeshProUGUI>();
@@ -29,6 +30,7 @@ public class Verbs : MonoBehaviour
         
     }
 
+    // Actualiza el texto del flowchart en base si estamos andando o usando un objeto, desactivando la acción opuesta para evitar errores
     public void UpdateVerbTextBox(string currentClickable)
     {
         SetVerbInFlowchart();
@@ -64,6 +66,7 @@ public class Verbs : MonoBehaviour
         }
     }
 
+    // Actualizamos las variables en el Flowchart y comprobamos si el flowchart contiene currentitem para gestionar el item actual para la combinacion de items
     public void SetVerbInFlowchart()
     {
         foreach (Flowchart flowchart in flowcharts)
