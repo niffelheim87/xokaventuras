@@ -413,12 +413,12 @@
       <HintPath>E:\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Serilog">
-      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Serilog.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Serilog.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NaCl">

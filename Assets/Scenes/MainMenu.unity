@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Game
+  m_text: Nueva partida
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: Salir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -938,7 +938,6 @@ GameObject:
   - component: {fileID: 1121926144}
   - component: {fileID: 1121926143}
   - component: {fileID: 1121926142}
-  - component: {fileID: 1121926147}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -977,16 +976,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.58292
     y: 151.15115
-    width: 112.11763
+    width: 129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1
-  blockName: New Game
+  blockName: Nueva partida
   description: 
   eventHandler: {fileID: 1121926112}
   commandList:
-  - {fileID: 1121926147}
   - {fileID: 1121926139}
   suppressAllAutoSelections: 0
 --- !u!114 &1121926114
@@ -1020,7 +1018,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 125.2941
+    width: 127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1044,21 +1042,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 117.37485, y: 1.7853708}
+  scrollPos: {x: 51.80861, y: -4.4396663}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1121926113}
-  selectedCommands:
-  - {fileID: 1121926147}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1121926137}
   description: 
@@ -1117,12 +1113,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.799995
     y: 307.60007
-    width: 107.41175
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 11
-  blockName: Exit Button
+  blockName: Salir
   description: 
   eventHandler: {fileID: 1121926119}
   commandList:
@@ -1159,12 +1155,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.799995
     y: 232.40005
-    width: 137.52939
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 10
-  blockName: Continue Button
+  blockName: Cargar partida
   description: 
   eventHandler: {fileID: 1121926122}
   commandList:
@@ -1240,7 +1236,7 @@ MonoBehaviour:
   variable: {fileID: 1121926137}
 --- !u!114 &1121926142
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1254,7 +1250,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1121926143
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1273,7 +1269,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1121926144
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1292,7 +1288,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1121926145
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1535,7 +1531,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1121926146
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1776,27 +1772,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1121926147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1121926109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 20
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1121926113}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 1
 --- !u!1 &1129506513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,7 +2067,7 @@ GameObject:
   - component: {fileID: 1962769861}
   - component: {fileID: 1962769860}
   m_Layer: 5
-  m_Name: Continue Button
+  m_Name: Load Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2259,7 +2234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: Cargar partida
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

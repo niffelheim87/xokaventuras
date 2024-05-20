@@ -99,7 +99,7 @@
     <Compile Include="Assets\Fungus\Scripts\Commands\RotateTo.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\TaskManager\TaskManager.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\CallbackArguments.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Custom Scripts\Inventory.cs" />
+    <Compile Include="Assets\Fungus\Custom Scripts\Inventory.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\InvokeMethod.cs" />
     <Compile Include="Assets\Fungus\Scripts\Components\SpriteFader.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Collection\CollectionBaseTwoCollectionCommand.cs" />
@@ -122,7 +122,7 @@
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Serialization\SerializationExtensions.cs" />
     <Compile Include="Assets\Fungus\Scripts\Components\MenuDialog.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Tree\Statements\ForLoopStatement.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Custom Scripts\ItemSlot.cs" />
+    <Compile Include="Assets\Fungus\Custom Scripts\ItemSlot.cs" />
     <Compile Include="Assets\Fungus\Scripts\EventHandlers\MonoBehaviour\AnimatorState.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\OpenURL.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Execution\ScriptLoadingContext.cs" />
@@ -151,9 +151,9 @@
     <Compile Include="Assets\Fungus\Scripts\Commands\Math\Map.cs" />
     <Compile Include="Assets\Fungus\Scripts\Interfaces\ILocalizable.cs" />
     <Compile Include="Assets\Fungus\Scripts\EventHandlers\MonoBehaviour\Mouse.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Commands\Rigidbody2D\StopMotionRigidBody2D.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\Table.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Collection\CollectionRandomBag.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Commands\Rigidbody2D\StopMotionRigidBody2D.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Debugger\SDK\DebugSession.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\SetAnimBool.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\MoveAdd.cs" />
@@ -209,7 +209,7 @@
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\StandardDescriptors\ReflectionMemberDescriptors\FieldMemberDescriptor.cs" />
     <Compile Include="Assets\Fungus\Scripts\Components\WriterAudio.cs" />
     <Compile Include="Assets\Fungus\Scripts\Interfaces\IBlockCaller.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Custom Scripts\Verbs.cs" />
+    <Compile Include="Assets\Fungus\Custom Scripts\Verbs.cs" />
     <Compile Include="Assets\Fungus\Scripts\VariableTypes\Collection\FloatCollection.cs" />
     <Compile Include="Assets\Fungus\Scripts\VariableTypes\GameObjectVariable.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\DataType.cs" />
@@ -324,7 +324,7 @@
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Components\LuaBindings.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Vector3\Vector3Arithmetic.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Math\Inv.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Custom Scripts\GameTimeline.cs" />
+    <Compile Include="Assets\Fungus\Custom Scripts\GameTimeline.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Tree\Statements\CompositeStatement.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\DataTypes\SymbolRef.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Execution\VM\CallStackItemFlags.cs" />
@@ -431,14 +431,14 @@
     <Compile Include="Assets\Fungus\Scripts\Commands\Math\Curve.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\RotateFrom.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Compatibility\Frameworks\Base\FrameworkBase.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Commands\Collection\CollectionCommandUnique.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Property\TextureProperty.cs" />
+    <Compile Include="Assets\Fungus\Scripts\Commands\Collection\CollectionCommandUnique.cs" />
     <Compile Include="Assets\Fungus\Scripts\VariableTypes\CollisionVariable.cs" />
     <Compile Include="Assets\Fungus\Scripts\Components\Localization.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\LuaIf.cs" />
     <Compile Include="Assets\Fungus\Scripts\Utils\VariableUtil.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Diagnostics\PerformanceCounter.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Custom Scripts\InventoryItem.cs" />
+    <Compile Include="Assets\Fungus\Custom Scripts\InventoryItem.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Interop\LuaStateInterop\LuaBase_CLib.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\ShakeScale.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Scripts\SfxrSynth.cs" />
@@ -634,7 +634,7 @@
     <Compile Include="Assets\Fungus\Scripts\Commands\SetMenuDialog.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\PlayUsfxrSound.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Tree\Statements\FunctionCallStatement.cs" />
-    <Compile Include="Assets\Fungus\Scripts\Custom Scripts\Target.cs" />
+    <Compile Include="Assets\Fungus\Custom Scripts\Target.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Tree\Statements\IfStatement.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\LeanTween\ScaleLean.cs" />
     <Compile Include="Assets\Fungus\Scripts\Components\SceneLoader.cs" />
@@ -1080,12 +1080,12 @@
       <HintPath>E:\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Serilog">
-      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Serilog.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Serilog.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NaCl">
