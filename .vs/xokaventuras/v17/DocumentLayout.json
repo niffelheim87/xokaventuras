@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Unity\\Proyectos\\xokaventuras\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|e:\\unity\\proyectos\\xokaventuras\\assets\\fungus\\scripts\\components\\flowchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9CB093-BCC3-C62A-A09E-85D6F2925129}|Fungus.csproj|solutionrelative:assets\\fungus\\scripts\\components\\flowchart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity\\Proyectos\\xokaventuras\\Library\\PackageCache\\com.unity.adaptiveperformance@5.1.0\\Runtime\\Management\\AdaptivePerformanceManagerSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.adaptiveperformance@5.1.0\\Runtime\\Management\\AdaptivePerformanceManagerSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Flowchart.cs",
+              "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Components\\Flowchart.cs",
+              "RelativeDocumentMoniker": "Assets\\Fungus\\Scripts\\Components\\Flowchart.cs",
+              "ToolTip": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Components\\Flowchart.cs",
+              "RelativeToolTip": "Assets\\Fungus\\Scripts\\Components\\Flowchart.cs",
+              "ViewState": "AQIAABwCAAAAAAAAAAAUwEsCAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T21:32:00.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AdaptivePerformanceManagerSettings.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Library\\PackageCache\\com.unity.adaptiveperformance@5.1.0\\Runtime\\Management\\AdaptivePerformanceManagerSettings.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.adaptiveperformance@5.1.0\\Runtime\\Management\\AdaptivePerformanceManagerSettings.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.adaptiveperformance@5.1.0\\Runtime\\Management\\AdaptivePerformanceManagerSettings.cs",
               "ViewState": "AQIAAOIAAAAAAAAAAAAiwAkBAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T17:07:14.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T17:07:14.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JSONChecker.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Thirdparty\\FungusLua\\Thirdparty\\JSON\\Editor\\JSONChecker.cs",
               "RelativeDocumentMoniker": "Assets\\Fungus\\Thirdparty\\FungusLua\\Thirdparty\\JSON\\Editor\\JSONChecker.cs",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Clickable2D.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Components\\Clickable2D.cs",
               "RelativeDocumentMoniker": "Assets\\Fungus\\Scripts\\Components\\Clickable2D.cs",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Target.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Custom Scripts\\Target.cs",
               "RelativeDocumentMoniker": "Assets\\Fungus\\Scripts\\Custom Scripts\\Target.cs",
@@ -86,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ChangeItem.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Fungus\\Scripts\\Commands\\ChangeItem.cs",
               "RelativeDocumentMoniker": "Assets\\Fungus\\Scripts\\Commands\\ChangeItem.cs",
@@ -98,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GameTimeline.cs",
               "DocumentMoniker": "E:\\Unity\\Proyectos\\xokaventuras\\Assets\\Scripts\\GameTimeline.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameTimeline.cs",
