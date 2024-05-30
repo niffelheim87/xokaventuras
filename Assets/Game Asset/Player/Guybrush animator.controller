@@ -142,7 +142,7 @@ BlendTree:
     m_Motion: {fileID: 7400000, guid: b49a1d71b4d6bfd40960252c61be4258, type: 2}
     m_Threshold: -180
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 0.5
     m_CycleOffset: 0
     m_DirectBlendParameter: angle
     m_Mirror: 0
@@ -150,7 +150,7 @@ BlendTree:
     m_Motion: {fileID: 7400000, guid: 42155e66c4b52994f93649cdf9831029, type: 2}
     m_Threshold: -90
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 0.5
     m_CycleOffset: 0
     m_DirectBlendParameter: angle
     m_Mirror: 0
@@ -158,7 +158,7 @@ BlendTree:
     m_Motion: {fileID: 7400000, guid: ccd10d188146c304596aaca61b193548, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 0.5
     m_CycleOffset: 0
     m_DirectBlendParameter: angle
     m_Mirror: 0
@@ -166,7 +166,7 @@ BlendTree:
     m_Motion: {fileID: 7400000, guid: c2a1ef8ec44e86048a83804cb3906ccb, type: 2}
     m_Threshold: 90
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 0.5
     m_CycleOffset: 0
     m_DirectBlendParameter: angle
     m_Mirror: 0
@@ -174,7 +174,7 @@ BlendTree:
     m_Motion: {fileID: 7400000, guid: b49a1d71b4d6bfd40960252c61be4258, type: 2}
     m_Threshold: 180
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 0.5
     m_CycleOffset: 0
     m_DirectBlendParameter: angle
     m_Mirror: 0
@@ -694,7 +694,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Idle Tree
-  m_Speed: 1.25
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -9151735824856770116}
