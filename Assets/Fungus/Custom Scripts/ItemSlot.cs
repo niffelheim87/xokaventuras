@@ -5,22 +5,38 @@ using TMPro;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ItemSlot : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
+public class ItemSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
+    // Referencia al objeto InventoryItem asignado a este slot
     public InventoryItem item;
+
+    // Referencia al componente Inventory
     private Inventory inventory;
+
+    // Referencia al componente Image para mostrar el icono del ítem
     public Image image;
+
+    // Referencia al componente TextMeshProUGUI para mostrar el nombre del ítem
     private TextMeshProUGUI textBox;
+
+    // Referencia al componente Verbs
     private Verbs verb;
+
+    // Referencia al componente Target
     private Target target;
 
     private void Start()
     {
-        //Encuentra y almacena referencias a los objetos Inventory, Verbs y Target en la escena.
+        // Encuentra y almacena una referencia al componente Inventory en la escena
         inventory = FindObjectOfType<Inventory>();
+
+        // Encuentra y almacena una referencia al componente Verbs en la escena
         verb = FindObjectOfType<Verbs>();
+
+        // Encuentra y almacena una referencia al componente Target en la escena
         target = FindObjectOfType<Target>();
-        // Encuentra y almacena una referencia al componente TextMeshProUGUI de este objeto.
+
+        // Encuentra y almacena una referencia al componente TextMeshProUGUI que es hijo de este objeto
         textBox = GetComponentInChildren<TextMeshProUGUI>();
     }
 
@@ -55,10 +71,10 @@ public class ItemSlot : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
         // Si hay una escena en progreso, no hace nada y sale de la función.
         if (target.cutSceneInProgress) { return; }
         // Si el verbo actual es "Use" y hay un ítem seleccionado, llama a la función CombineItems del objeto Inventory pasando el ítem actual y el ítem de este slot
-        if(verb.verb == Verbs.Action.Use && verb.currentItem != null)
+        if (verb.verb == Verbs.Action.Use && verb.currentItem != null)
         {
             inventory.CombineItems(verb.currentItem, item);
-             
+
         }
         // Establece el verbo actual a "Use".
         verb.verb = Verbs.Action.Use;
@@ -74,7 +90,7 @@ public class ItemSlot : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
         verb.hoveredItemSlot = item.itemName;
         // Llama a la función UpdateVerbTextBox del objeto Verbs pasando null.
         verb.UpdateVerbTextBox(null);
-        
+
     }
 
     public void OnPointerExit(PointerEventData eventData)

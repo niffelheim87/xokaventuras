@@ -4217,11 +4217,11 @@ GameObject:
   - component: {fileID: 637014700}
   - component: {fileID: 637014699}
   - component: {fileID: 637014764}
-  - component: {fileID: 637014765}
   - component: {fileID: 637014766}
   - component: {fileID: 637014768}
   - component: {fileID: 637014767}
   - component: {fileID: 637014769}
+  - component: {fileID: 637014770}
   m_Layer: 0
   m_Name: Talk Flowchart
   m_TagString: Untagged
@@ -4245,7 +4245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 474.7647
     y: 582
-    width: 75.31647
+    width: 75.00001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4254,8 +4254,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 637014769}
   commandList:
+  - {fileID: 637014770}
   - {fileID: 637014764}
-  - {fileID: 637014765}
   - {fileID: 637014766}
   - {fileID: 637014768}
   - {fileID: 637014767}
@@ -4273,11 +4273,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 87.63207, y: -328.64984}
+  scrollPos: {x: -219.95471, y: -277.20413}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7899997
+  zoom: 0.63999987
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4287,7 +4287,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 637014699}
   selectedCommands:
-  - {fileID: 637014764}
+  - {fileID: 637014770}
   variables: []
   description: 
   stepPause: 0
@@ -4328,38 +4328,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Socorro
+  storyText: "\xA1Socorro! \xA1Estoy cayendo!"
   description: 
   character: {fileID: 843620037}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &637014765
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 637014698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: Estoy cayendo!!!
-  description: 
-  character: {fileID: 843620037}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 3998ed3ec7e651849afba20904d06cfa, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -4409,7 +4382,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Level1
+    stringVal: Level_1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &637014768
@@ -4432,7 +4405,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &637014769
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4445,6 +4418,23 @@ MonoBehaviour:
   parentBlock: {fileID: 637014699}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &637014770
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637014698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 1528b72ed10a94d4bbc84a2f3da9a1fe, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &640703690
 GameObject:
   m_ObjectHideFlags: 0
@@ -5640,7 +5630,7 @@ GameObject:
   - component: {fileID: 843620038}
   - component: {fileID: 843620037}
   m_Layer: 0
-  m_Name: Guybrush Character
+  m_Name: Xokas Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5658,7 +5648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Guybrush
+  nameText: Xokas
   nameColor: {r: 1, g: 1, b: 1, a: 0}
   soundEffect: {fileID: 0}
   portraits: []
@@ -8965,7 +8955,7 @@ GameObject:
   - component: {fileID: 1365948682}
   - component: {fileID: 1365948681}
   m_Layer: 5
-  m_Name: Guybrush SayDialog
+  m_Name: Xokas SayDialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
