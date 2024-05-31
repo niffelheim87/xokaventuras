@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 93.41167, y: 73.48993}
+  scrollPos: {x: -108.86105, y: 89.39902}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1037,9 +1037,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1121926125}
-  selectedCommands:
-  - {fileID: 1121926169}
+  - {fileID: 1121926167}
+  selectedCommands: []
   variables:
   - {fileID: 1121926137}
   - {fileID: 1121926149}
@@ -2228,7 +2227,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1121926168
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2242,7 +2241,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1121926169
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2261,7 +2260,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1121926170
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
