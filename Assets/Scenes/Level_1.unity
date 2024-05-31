@@ -6307,6 +6307,7 @@ GameObject:
   - component: {fileID: 929340557}
   - component: {fileID: 929340556}
   - component: {fileID: 929340568}
+  - component: {fileID: 929340569}
   m_Layer: 0
   m_Name: Objects Flowchart
   m_TagString: Untagged
@@ -6378,9 +6379,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 929340386}
+  - {fileID: 929340491}
   selectedCommands:
-  - {fileID: 929340567}
+  - {fileID: 929340550}
   variables:
   - {fileID: 929340395}
   - {fileID: 929340394}
@@ -9811,6 +9812,7 @@ MonoBehaviour:
   - {fileID: 929340511}
   - {fileID: 929340512}
   - {fileID: 929340550}
+  - {fileID: 929340569}
   - {fileID: 929340548}
   - {fileID: 929340513}
   suppressAllAutoSelections: 0
@@ -10909,7 +10911,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &929340556
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10930,7 +10932,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &929340557
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10951,7 +10953,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &929340558
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10967,7 +10969,7 @@ MonoBehaviour:
   add: 0
 --- !u!114 &929340559
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10983,7 +10985,7 @@ MonoBehaviour:
   variable: {fileID: 929340450}
 --- !u!114 &929340560
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11135,7 +11137,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &929340561
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11151,7 +11153,7 @@ MonoBehaviour:
   add: 1
 --- !u!114 &929340562
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11165,7 +11167,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &929340563
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11179,7 +11181,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &929340564
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11193,7 +11195,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &929340565
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11436,7 +11438,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &929340566
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11450,7 +11452,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &929340567
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11693,7 +11695,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &929340568
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11707,6 +11709,22 @@ MonoBehaviour:
   indentLevel: 0
   key: newGame
   variable: {fileID: 966538964}
+--- !u!114 &929340569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929340385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 191
+  indentLevel: 1
+  key: HasFabada
+  variable: {fileID: 929340450}
 --- !u!1 &966538931
 GameObject:
   m_ObjectHideFlags: 0
@@ -11773,6 +11791,12 @@ GameObject:
   - component: {fileID: 966539043}
   - component: {fileID: 966539042}
   - component: {fileID: 966539041}
+  - component: {fileID: 966539049}
+  - component: {fileID: 966539048}
+  - component: {fileID: 966539047}
+  - component: {fileID: 966539046}
+  - component: {fileID: 966539045}
+  - component: {fileID: 966539050}
   m_Layer: 0
   m_Name: Game Variables
   m_TagString: Untagged
@@ -11808,6 +11832,7 @@ MonoBehaviour:
   - {fileID: 966539003}
   - {fileID: 966539002}
   - {fileID: 966539020}
+  - {fileID: 966539050}
   - {fileID: 966539001}
   - {fileID: 966538999}
   - {fileID: 966538998}
@@ -11879,6 +11904,11 @@ MonoBehaviour:
   - {fileID: 966539009}
   - {fileID: 966539011}
   - {fileID: 966539010}
+  - {fileID: 966539049}
+  - {fileID: 966539048}
+  - {fileID: 966539047}
+  - {fileID: 966539046}
+  - {fileID: 966539045}
   - {fileID: 966539006}
   - {fileID: 966539004}
   - {fileID: 966539008}
@@ -12574,7 +12604,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 966538951}
   selectedCommands:
-  - {fileID: 966539014}
+  - {fileID: 966539001}
   variables:
   - {fileID: 966538964}
   - {fileID: 966538963}
@@ -14912,6 +14942,102 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &966539045
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966538931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 264
+  indentLevel: 0
+  key: HasVino
+  variable: {fileID: 1340450217}
+--- !u!114 &966539046
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966538931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 263
+  indentLevel: 0
+  key: HasJarra
+  variable: {fileID: 1340450242}
+--- !u!114 &966539047
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966538931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 262
+  indentLevel: 0
+  key: HasFabada
+  variable: {fileID: 929340450}
+--- !u!114 &966539048
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966538931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 0
+  key: ibai_saludo
+  variable: {fileID: 1472701373}
+--- !u!114 &966539049
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966538931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 0
+  key: ibai_recado1
+  variable: {fileID: 1472701442}
+--- !u!114 &966539050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966538931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 265
+  indentLevel: 0
+  key: ibai_saludo
+  variable: {fileID: 1472701373}
 --- !u!1 &986507507
 GameObject:
   m_ObjectHideFlags: 0
@@ -19109,7 +19235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 929340387}
+  selectedFlowchart: {fileID: 1472701387}
 --- !u!4 &1355482745
 Transform:
   m_ObjectHideFlags: 1
@@ -19922,6 +20048,8 @@ GameObject:
   - component: {fileID: 1472701440}
   - component: {fileID: 1472701443}
   - component: {fileID: 1472701442}
+  - component: {fileID: 1472701445}
+  - component: {fileID: 1472701444}
   m_Layer: 0
   m_Name: Talk Flowchart
   m_TagString: Untagged
@@ -20187,7 +20315,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1472701417}
+  - {fileID: 1472701395}
   selectedCommands: []
   variables:
   - {fileID: 1472701382}
@@ -20339,12 +20467,14 @@ MonoBehaviour:
   - {fileID: 1472701424}
   - {fileID: 1472701432}
   - {fileID: 1472701443}
+  - {fileID: 1472701445}
   - {fileID: 1472701433}
   - {fileID: 1472701440}
   - {fileID: 1472701438}
   - {fileID: 1472701437}
   - {fileID: 1472701431}
   - {fileID: 1472701428}
+  - {fileID: 1472701444}
   - {fileID: 1472701425}
   suppressAllAutoSelections: 0
 --- !u!114 &1472701424
@@ -21386,6 +21516,38 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1472701444
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472701352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 236
+  indentLevel: 0
+  key: ibai_saludo
+  variable: {fileID: 1472701373}
+--- !u!114 &1472701445
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472701352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 234
+  indentLevel: 1
+  key: ibai_saludo
+  variable: {fileID: 1472701373}
 --- !u!1 &1494597783
 GameObject:
   m_ObjectHideFlags: 0
