@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - Fungus.ChangeItem
     - Fungus.Character
     - Fungus.Clickable2D
+    - Fungus.CommandCopyBuffer
     - Fungus.CustomTag
     - Fungus.DialogInput
     - Fungus.Draggable2D
@@ -63,6 +64,9 @@ ScriptsOnlyBuild:
     - Target
     - Verbs
     FungusEditor.dll:
+    - Fungus.EditorUtils.BlockEditor
+    - Fungus.EditorUtils.BlockInspector
+    - Fungus.EditorUtils.EventHandlerEditor
     - Fungus.EditorUtils.FlowchartWindow
     - Fungus.EditorUtils.FungusEditorResources
     NavMeshPlus.dll:
@@ -678,8 +682,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8012}
     - Class: 114
       Script: {instanceID: 8034}
-    - Class: 114
-      Script: {instanceID: 8070}
     - Class: 114
       Script: {instanceID: 8156}
     - Class: 114

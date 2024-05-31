@@ -17866,7 +17866,6 @@ GameObject:
   - component: {fileID: 1340450237}
   - component: {fileID: 1340450246}
   - component: {fileID: 1340450245}
-  - component: {fileID: 1340450244}
   - component: {fileID: 1340450243}
   - component: {fileID: 1340450242}
   - component: {fileID: 1340450241}
@@ -17907,8 +17906,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1340450246}
+  selectedCommands:
+  - {fileID: 1340450239}
   variables:
   - {fileID: 1340450200}
   - {fileID: 1340450217}
@@ -19536,7 +19537,7 @@ MonoBehaviour:
   itemId: 93
   indentLevel: 0
   key: HasVino
-  variable: {fileID: 0}
+  variable: {fileID: 1340450247}
 --- !u!114 &1340450240
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19552,7 +19553,7 @@ MonoBehaviour:
   itemId: 92
   indentLevel: 0
   anyVar:
-    variable: {fileID: 0}
+    variable: {fileID: 1340450247}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -19748,31 +19749,6 @@ MonoBehaviour:
   indentLevel: 0
   item: {fileID: 11400000, guid: f474ca4859e6daa43a77a5a63ad7957f, type: 2}
   add: 0
---- !u!114 &1340450244
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340450191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee63e642958494f1ebed8116ae4b1103, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 88
-  indentLevel: 0
-  _animator:
-    animatorRef: {fileID: 0}
-    animatorVal: {fileID: 1913952686}
-  _parameterName:
-    stringRef: {fileID: 0}
-    stringVal: Look
-  value:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  animatorOLD: {fileID: 0}
-  parameterNameOLD: 
 --- !u!114 &1340450245
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -19820,7 +19796,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1340450245}
-  - {fileID: 1340450244}
   - {fileID: 1340450243}
   - {fileID: 1340450242}
   - {fileID: 1340450241}
@@ -19902,7 +19877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 2278564}
+  selectedFlowchart: {fileID: 1340450194}
 --- !u!4 &1355482745
 Transform:
   m_ObjectHideFlags: 1
