@@ -3021,6 +3021,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 915ea78397dce174e98158f2ec79a03e, type: 2}
   - {fileID: 11400000, guid: f474ca4859e6daa43a77a5a63ad7957f, type: 2}
   - {fileID: 11400000, guid: 411e290dd433c3b42ad335c9c05c9ac8, type: 2}
+  - {fileID: 11400000, guid: 62b88d418992d6f4296f98de4d2db845, type: 2}
   itemslots:
   - {fileID: 128450474}
   - {fileID: 522578769}
@@ -14389,7 +14390,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1340450236}
+  - {fileID: 1340450210}
   selectedCommands: []
   variables:
   - {fileID: 1340450200}
@@ -15660,7 +15661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1340450194}
+  selectedFlowchart: {fileID: 1472701387}
 --- !u!4 &1355482745
 Transform:
   m_ObjectHideFlags: 1
@@ -16489,6 +16490,8 @@ GameObject:
   - component: {fileID: 1472701431}
   - component: {fileID: 1472701434}
   - component: {fileID: 1472701433}
+  - component: {fileID: 1472701436}
+  - component: {fileID: 1472701435}
   m_Layer: 0
   m_Name: Talk Flowchart
   m_TagString: Untagged
@@ -16772,7 +16775,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -223.28207
     y: 529.0689
-    width: 81.95878
+    width: 81.76472
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16925,7 +16928,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -358.33667
     y: 611.87177
-    width: 102.57734
+    width: 101.764725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17067,7 +17070,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -523.04785
     y: 524.16754
-    width: 114.94848
+    width: 113.529434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17191,7 +17194,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -367.69125
     y: 393.29504
-    width: 85.05156
+    width: 84.11766
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17244,7 +17247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -172.18935
     y: 436.57407
-    width: 146.90726
+    width: 147.6471
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17373,7 +17376,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -33.409973
     y: 614.6447
-    width: 105.67012
+    width: 105.294136
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17402,7 +17405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -396.0963
     y: 229.43819
-    width: 75.77321
+    width: 73.52942
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17425,11 +17428,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 590.8756, y: -157.51537}
+  scrollPos: {x: 564.49603, y: -191.08725}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.9699996
+  zoom: 0.8499997
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -17437,8 +17440,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1472701417}
-  selectedCommands: []
+  - {fileID: 1472701395}
+  selectedCommands:
+  - {fileID: 1472701436}
   variables:
   - {fileID: 1472701382}
   - {fileID: 1472701374}
@@ -17527,7 +17531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.63329
     y: 596.9007
-    width: 115.97941
+    width: 114.7059
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17538,6 +17542,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 1472701394}
   - {fileID: 1472701393}
+  - {fileID: 1472701436}
+  - {fileID: 1472701435}
   - {fileID: 1472701434}
   suppressAllAutoSelections: 0
 --- !u!114 &1472701406
@@ -17572,7 +17578,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 76.91617
     y: 519.18964
-    width: 70.61856
+    width: 71.176476
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18135,6 +18141,49 @@ MonoBehaviour:
     stringVal: Level_2
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1472701435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472701352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 642f54349105bca49bf122dd5b472579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  item: {fileID: 11400000, guid: 62b88d418992d6f4296f98de4d2db845, type: 2}
+  add: 0
+--- !u!114 &1472701436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472701352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 224
+  indentLevel: 0
+  storyText: "Toma este palo m\xE1gico"
+  description: 
+  character: {fileID: 1956685396}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 43a4ed14b786a8c47b89a7b26dc32072, type: 3}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1494597783
 GameObject:
   m_ObjectHideFlags: 0
