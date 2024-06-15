@@ -9859,7 +9859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseTexture: {fileID: 2800000, guid: 4e43c476b4a7a49a08c37378fb01ce99, type: 3}
   walkString: 'Andar hacia '
-  useString: 'Use to '
+  useString: Usar
   currentClickable: 
   currentItem: {fileID: 0}
   hoveredItemSlot: 
@@ -13585,7 +13585,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 294.79514
     y: 276.89758
-    width: 127.31959
+    width: 123.402054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13667,7 +13667,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 531.2826
     y: 270.96558
-    width: 106.701035
+    width: 104.43298
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13791,7 +13791,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 292.21954
     y: 341.1415
-    width: 125.25773
+    width: 120.927826
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14621,7 +14621,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.779564
     y: 252.41455
-    width: 146.90721
+    width: 143.19586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14648,7 +14648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 313.88293
     y: 213.87802
-    width: 67.52577
+    width: 67.31959
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14695,7 +14695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 302.17557
     y: 102.65853
-    width: 77.83505
+    width: 77.21649
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15014,7 +15014,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 306.68527
     y: 414.33743
-    width: 82.989685
+    width: 82.16495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

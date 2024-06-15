@@ -4449,6 +4449,7 @@ GameObject:
   - component: {fileID: 637014770}
   - component: {fileID: 637014772}
   - component: {fileID: 637014774}
+  - component: {fileID: 637014775}
   m_Layer: 0
   m_Name: Talk Flowchart
   m_TagString: Untagged
@@ -4472,7 +4473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 474.7647
     y: 582
-    width: 75
+    width: 75.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4482,6 +4483,7 @@ MonoBehaviour:
   eventHandler: {fileID: 637014769}
   commandList:
   - {fileID: 637014772}
+  - {fileID: 637014775}
   - {fileID: 637014770}
   - {fileID: 637014764}
   - {fileID: 637014766}
@@ -4517,7 +4519,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 637014699}
   selectedCommands:
-  - {fileID: 637014767}
+  - {fileID: 637014775}
   variables: []
   description: 
   stepPause: 0
@@ -4718,6 +4720,22 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &637014775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637014698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6f88496f37c444a91acef47749f723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  cursorTexture: {fileID: 2800000, guid: f278f2ef226690a469b65a379fb746eb, type: 3}
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &640703690
 GameObject:
   m_ObjectHideFlags: 0
